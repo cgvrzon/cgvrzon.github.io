@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "lang": "en",
+        "langName": "English",
+        "description": "Carlos Garzón López - Junior Full-Stack Developer. Clear, solid web development ready to grow.",
+        "title": "Carlos Garzón López | Junior Full-Stack Developer"
+    },
+    "hero": {
+        "role": "Junior Full-Stack Developer",
+        "tagline": "From idea to system: clear, solid web development ready to grow.",
+        "availability": "Available: On-site · Hybrid · Remote",
+        "cta": {
+            "github": "GitHub",
+            "linkedin": "LinkedIn",
+            "email": "Email"
+        }
+    },
+    "nav": {
+        "about": "About",
+        "projects": "Projects",
+        "stack": "Stack",
+        "education": "Education",
+        "process": "How I Work",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "A developer in constant evolution"
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "What I've built",
+        "viewCode": "View code",
+        "viewDemo": "View demo",
+        "featured": "Featured",
+        "learning": "Learning project"
+    },
+    "stack": {
+        "title": "Tech Stack",
+        "current": "Currently working with",
+        "learning": "Learning"
+    },
+    "education": {
+        "title": "Education",
+        "inProgress": "In progress",
+        "completed": "Completed"
+    },
+    "process": {
+        "title": "How I Work",
+        "subtitle": "My development approach"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Have a project in mind?",
+        "cta": "Let's talk"
+    },
+    "footer": {
+        "copyright": "© 2025 Carlos Garzón López. All rights reserved.",
+        "builtWith": "Built with"
+    },
+    "aria": {
+        "langSelector": "Language selector",
+        "mainNav": "Main navigation",
+        "socialLinks": "Contact and social links",
+        "skipToContent": "Skip to main content"
+    }
+}

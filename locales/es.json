@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "lang": "es",
+        "langName": "Español",
+        "description": "Carlos Garzón López - Junior Full-Stack Developer. Desarrollo web claro, sólido y preparado para crecer.",
+        "title": "Carlos Garzón López | Junior Full-Stack Developer"
+    },
+    "hero": {
+        "role": "Junior Full-Stack Developer",
+        "tagline": "De la idea al sistema: desarrollo web claro, sólido y preparado para crecer.",
+        "availability": "Disponible: Presencial · Híbrido · Remoto",
+        "cta": {
+            "github": "GitHub",
+            "linkedin": "LinkedIn",
+            "email": "Email"
+        }
+    },
+    "nav": {
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "stack": "Stack",
+        "education": "Formación",
+        "process": "Cómo trabajo",
+        "contact": "Contacto"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "subtitle": "Desarrollador en evolución constante"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Lo que he construido",
+        "viewCode": "Ver código",
+        "viewDemo": "Ver demo",
+        "featured": "Destacado",
+        "learning": "Proyecto formativo"
+    },
+    "stack": {
+        "title": "Stack Tecnológico",
+        "current": "Actualmente trabajo con",
+        "learning": "En aprendizaje"
+    },
+    "education": {
+        "title": "Formación",
+        "inProgress": "En curso",
+        "completed": "Completado"
+    },
+    "process": {
+        "title": "Cómo trabajo",
+        "subtitle": "Mi enfoque de desarrollo"
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "¿Tienes un proyecto en mente?",
+        "cta": "Hablemos"
+    },
+    "footer": {
+        "copyright": "© 2025 Carlos Garzón López. Todos los derechos reservados.",
+        "builtWith": "Construido con"
+    },
+    "aria": {
+        "langSelector": "Selector de idioma",
+        "mainNav": "Navegación principal",
+        "socialLinks": "Enlaces de contacto y redes",
+        "skipToContent": "Saltar al contenido principal"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "lang": "ca",
+        "langName": "Català",
+        "description": "Carlos Garzón López - Junior Full-Stack Developer. Desenvolupament web clar, sòlid i preparat per créixer.",
+        "title": "Carlos Garzón López | Junior Full-Stack Developer"
+    },
+    "hero": {
+        "role": "Junior Full-Stack Developer",
+        "tagline": "De la idea al sistema: desenvolupament web clar, sòlid i preparat per créixer.",
+        "availability": "Disponible: Presencial · Híbrid · Remot",
+        "cta": {
+            "github": "GitHub",
+            "linkedin": "LinkedIn",
+            "email": "Email"
+        }
+    },
+    "nav": {
+        "about": "Sobre mi",
+        "projects": "Projectes",
+        "stack": "Stack",
+        "education": "Formació",
+        "process": "Com treballo",
+        "contact": "Contacte"
+    },
+    "about": {
+        "title": "Sobre mi",
+        "subtitle": "Un desenvolupador en evolució constant"
+    },
+    "projects": {
+        "title": "Projectes",
+        "subtitle": "El que he construït",
+        "viewCode": "Veure codi",
+        "viewDemo": "Veure demo",
+        "featured": "Destacat",
+        "learning": "Projecte formatiu"
+    },
+    "stack": {
+        "title": "Stack Tecnològic",
+        "current": "Actualment treballo amb",
+        "learning": "En aprenentatge"
+    },
+    "education": {
+        "title": "Formació",
+        "inProgress": "En curs",
+        "completed": "Completat"
+    },
+    "process": {
+        "title": "Com treballo",
+        "subtitle": "El meu enfocament de desenvolupament"
+    },
+    "contact": {
+        "title": "Contacte",
+        "subtitle": "Tens un projecte en ment?",
+        "cta": "Parlem"
+    },
+    "footer": {
+        "copyright": "© 2025 Carlos Garzón López. Tots els drets reservats.",
+        "builtWith": "Construït amb"
+    },
+    "aria": {
+        "langSelector": "Selector d'idioma",
+        "mainNav": "Navegació principal",
+        "socialLinks": "Enllaços de contacte i xarxes",
+        "skipToContent": "Saltar al contingut principal"
+    }
+}

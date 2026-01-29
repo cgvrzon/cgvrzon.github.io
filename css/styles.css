@@ -1,0 +1,460 @@
+/**
+ * Portfolio - Carlos Garzón López (cgvrzon)
+ * 
+ * Design System & Styles
+ * Aesthetic: Technical, clean, professional with subtle warmth
+ */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   ============================================ */
+:root {
+    /* Color Palette - Dark theme with warm accents */
+    --color-bg-primary: #0a0a0b;
+    --color-bg-secondary: #111113;
+    --color-bg-elevated: #18181b;
+    
+    --color-text-primary: #fafafa;
+    --color-text-secondary: #a1a1aa;
+    --color-text-muted: #71717a;
+    
+    --color-accent-primary: #3b82f6;    /* Blue - trust, tech */
+    --color-accent-secondary: #22d3ee;  /* Cyan - modern, fresh */
+    --color-accent-warm: #f59e0b;       /* Amber - warmth, energy */
+    
+    --color-border: #27272a;
+    --color-border-hover: #3f3f46;
+    
+    /* Gradients */
+    --gradient-accent: linear-gradient(135deg, var(--color-accent-primary) 0%, var(--color-accent-secondary) 100%);
+    --gradient-subtle: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+    
+    /* Typography */
+    --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    
+    --text-xs: 0.75rem;     /* 12px */
+    --text-sm: 0.875rem;    /* 14px */
+    --text-base: 1rem;      /* 16px */
+    --text-lg: 1.125rem;    /* 18px */
+    --text-xl: 1.25rem;     /* 20px */
+    --text-2xl: 1.5rem;     /* 24px */
+    --text-3xl: 1.875rem;   /* 30px */
+    --text-4xl: 2.25rem;    /* 36px */
+    --text-5xl: 3rem;       /* 48px */
+    
+    --leading-tight: 1.2;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.7;
+    
+    --tracking-tight: -0.02em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.05em;
+    
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    
+    /* Effects */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-glow: 0 0 20px -5px var(--color-accent-primary);
+    
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-primary);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+    outline: 2px solid var(--color-accent-primary);
+    outline-offset: 2px;
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-6);
+    overflow: hidden;
+    
+    /* Subtle gradient background */
+    background: 
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.15), transparent),
+        var(--color-bg-primary);
+}
+
+/* Language Selector */
+.lang-selector {
+    position: absolute;
+    top: var(--space-6);
+    right: var(--space-6);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    z-index: 10;
+}
+
+.lang-btn {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-text-muted);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-sm);
+    transition: 
+        color var(--transition-fast),
+        background-color var(--transition-fast);
+}
+
+.lang-btn:hover {
+    color: var(--color-text-secondary);
+    background-color: var(--color-bg-elevated);
+}
+
+.lang-btn.active {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-elevated);
+}
+
+.lang-separator {
+    color: var(--color-border);
+    font-size: var(--text-sm);
+}
+
+/* Hero Content */
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    
+    /* Entrance animation */
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Profile Image */
+.hero__image-wrapper {
+    position: relative;
+    margin-bottom: var(--space-8);
+}
+
+.hero__image {
+    width: 180px;
+    height: 180px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    border: 3px solid var(--color-border);
+    transition: 
+        border-color var(--transition-base),
+        box-shadow var(--transition-base);
+}
+
+.hero__image-wrapper:hover .hero__image {
+    border-color: var(--color-accent-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+/* Identity */
+.hero__identity {
+    margin-bottom: var(--space-4);
+}
+
+.hero__name {
+    font-size: var(--text-4xl);
+    font-weight: 700;
+    letter-spacing: var(--tracking-tight);
+    line-height: var(--leading-tight);
+    color: var(--color-text-primary);
+}
+
+.hero__alias {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    color: var(--color-accent-secondary);
+    margin-top: var(--space-2);
+}
+
+/* Role */
+.hero__role {
+    font-size: var(--text-xl);
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-4);
+}
+
+/* Tagline */
+.hero__tagline {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    line-height: var(--leading-relaxed);
+    max-width: 500px;
+    margin-bottom: var(--space-8);
+}
+
+/* Meta (Location & Availability) */
+.hero__meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-bottom: var(--space-8);
+}
+
+.hero__location,
+.hero__availability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+}
+
+.hero__meta .icon {
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+/* CTA Links */
+.hero__cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+}
+
+.cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg-elevated);
+    color: var(--color-text-secondary);
+    transition: 
+        color var(--transition-fast),
+        border-color var(--transition-fast),
+        background-color var(--transition-fast),
+        transform var(--transition-fast);
+}
+
+.cta-link:hover {
+    color: var(--color-text-primary);
+    border-color: var(--color-border-hover);
+    transform: translateY(-2px);
+}
+
+.cta-link--github:hover {
+    border-color: #6e5494;
+    color: #fff;
+}
+
+.cta-link--linkedin:hover {
+    border-color: #0077b5;
+    color: #0077b5;
+}
+
+.cta-link--email:hover {
+    border-color: var(--color-accent-warm);
+    color: var(--color-accent-warm);
+}
+
+.cta-link .icon {
+    flex-shrink: 0;
+}
+
+/* Decorative Element */
+.hero__decoration {
+    position: absolute;
+    bottom: var(--space-8);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.code-line {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    opacity: 0.4;
+    letter-spacing: var(--tracking-wide);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN (Mobile First)
+   ============================================ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+    .hero {
+        padding: var(--space-4);
+        padding-top: var(--space-16);
+    }
+    
+    .lang-selector {
+        top: var(--space-4);
+        right: var(--space-4);
+    }
+    
+    .hero__name {
+        font-size: var(--text-3xl);
+    }
+    
+    .hero__role {
+        font-size: var(--text-lg);
+    }
+    
+    .hero__tagline {
+        font-size: var(--text-base);
+    }
+    
+    .hero__image {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .hero__cta {
+        flex-direction: column;
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .cta-link {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hero__meta {
+        flex-direction: row;
+        gap: var(--space-6);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hero__name {
+        font-size: var(--text-5xl);
+    }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+    .hero {
+        min-height: auto;
+        padding: var(--space-8);
+        background: white;
+        color: black;
+    }
+    
+    .lang-selector,
+    .hero__decoration {
+        display: none;
+    }
+    
+    .cta-link {
+        border: 1px solid #ccc;
+    }
+}

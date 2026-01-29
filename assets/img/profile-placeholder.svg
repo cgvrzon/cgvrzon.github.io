@@ -1,0 +1,15 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="90" cy="90" r="90" fill="#18181b"/>
+    
+    <!-- User Icon -->
+    <circle cx="90" cy="70" r="30" fill="#3f3f46"/>
+    <path d="M40 150c0-27.614 22.386-50 50-50s50 22.386 50 50" fill="#3f3f46"/>
+    
+    <!-- Decorative ring -->
+    <circle cx="90" cy="90" r="87" stroke="#27272a" stroke-width="2" fill="none"/>
+    
+    <!-- Code brackets decoration -->
+    <text x="30" y="95" font-family="monospace" font-size="24" fill="#3b82f6" opacity="0.5">&lt;</text>
+    <text x="140" y="95" font-family="monospace" font-size="24" fill="#3b82f6" opacity="0.5">/&gt;</text>
+</svg>

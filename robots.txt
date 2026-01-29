@@ -1,0 +1,8 @@
+# robots.txt - cgvrzon.github.io
+# Allow all search engines to index all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cgvrzon.github.io/sitemap.xml
