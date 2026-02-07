@@ -25,7 +25,41 @@
     },
     "about": {
         "title": "Sobre mí",
-        "subtitle": "Desarrollador en evolución constante"
+        "subtitle": "Desarrollador en evolución constante",
+        "bio": "Empecé en programación atraído por la libertad de trabajar desde cualquier lugar. Con el tiempo descubrí algo más valioso: la capacidad de crear cualquier cosa imaginable. Poder materializar una idea de negocio, un juego o una inquietud en algo real es lo que me hace mirar al mundo con ilusión.",
+        "values": {
+            "title": "Valores",
+            "closeness": {
+                "title": "Cercanía",
+                "description": "Trabajo codo a codo con el cliente, sin barreras"
+            },
+            "honesty": {
+                "title": "Honestidad",
+                "description": "Prefiero decir \"no es viable\" a prometer lo que no puedo"
+            },
+            "clarity": {
+                "title": "Claridad",
+                "description": "Rutas y planes que cualquiera pueda entender"
+            },
+            "robustness": {
+                "title": "Robustez",
+                "description": "Cada decisión sopesada con pros, contras e impacto"
+            },
+            "scalability": {
+                "title": "Visión de futuro",
+                "description": "Código pensado para escalar y mantenerse a largo plazo"
+            }
+        },
+        "hobbies": {
+            "title": "Fuera del código",
+            "description": "Toco el violín, juego al pádel semanalmente y entreno varias veces por semana. Mi próxima inquietud: boxeo."
+        },
+        "languages": {
+            "title": "Idiomas",
+            "spanish": "Español (nativo)",
+            "catalan": "Catalán (nativo)",
+            "english": "Inglés (B2+ conversacional)"
+        }
     },
     "projects": {
         "title": "Proyectos",
@@ -33,26 +67,86 @@
         "viewCode": "Ver código",
         "viewDemo": "Ver demo",
         "featured": "Destacado",
-        "learning": "Proyecto formativo"
+        "learning": "Proyecto formativo",
+        "deploying": "Pre-lanzamiento",
+        "arynstal": {
+            "title": "Arynstal CRM",
+            "description": "Sistema de gestión de leads en producción para empresa de instalaciones. Incluye formulario de contacto seguro, panel admin con auditoría, notificaciones automáticas y cumplimiento RGPD.",
+            "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
+        },
+        "portfolio": {
+            "title": "Portfolio Personal",
+            "description": "Este mismo sitio. Sistema i18n propio en JavaScript vanilla, diseño responsive, accesibilidad optimizada y rendimiento cuidado.",
+            "stack": "HTML5, CSS3, JavaScript, Vite"
+        },
+        "appfp": {
+            "title": "App Gestión Deportiva",
+            "description": "Aplicación Android desarrollada como proyecto final de FP. Gestión de equipos, jugadores y partidos con base de datos local.",
+            "stack": "Kotlin, Android Studio, SQLite"
+        },
+        "testimonial": {
+            "quote": "Carlos entendió nuestras necesidades desde el primer día y nos entregó un sistema que usamos a diario. Profesional y cercano.",
+            "author": "Arynstal SL"
+        }
     },
     "stack": {
         "title": "Stack Tecnológico",
-        "current": "Actualmente trabajo con",
-        "learning": "En aprendizaje"
+        "current": "Trabajo actualmente",
+        "learning": "En aprendizaje",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Herramientas",
+        "methodologies": "Metodologías",
+        "methodologiesDesc": "Trabajo siguiendo principios de"
     },
     "education": {
         "title": "Formación",
         "inProgress": "En curso",
-        "completed": "Completado"
+        "completed": "Completado",
+        "items": {
+            "master": {
+                "title": "Máster en Desarrollo Web Full-Stack",
+                "institution": "ConquerBlocks"
+            },
+            "fp": {
+                "title": "CFGS Desarrollo de Aplicaciones Multiplataforma",
+                "institution": "IES Provençana"
+            }
+        }
     },
     "process": {
         "title": "Cómo trabajo",
-        "subtitle": "Mi enfoque de desarrollo"
+        "subtitle": "Mi enfoque de desarrollo",
+        "steps": {
+            "understand": {
+                "number": "01",
+                "title": "Entender",
+                "description": "Escucho y pregunto hasta comprender el problema real, no solo los síntomas."
+            },
+            "plan": {
+                "number": "02",
+                "title": "Planificar",
+                "description": "Defino alcance, prioridades y entregables claros antes de escribir una línea de código."
+            },
+            "develop": {
+                "number": "03",
+                "title": "Desarrollar",
+                "description": "Construyo iterativamente, validando cada paso con feedback continuo."
+            },
+            "deliver": {
+                "number": "04",
+                "title": "Entregar",
+                "description": "Despliego con documentación clara y soporte para que el sistema perdure."
+            }
+        }
     },
     "contact": {
         "title": "Contacto",
         "subtitle": "¿Tienes un proyecto en mente?",
-        "cta": "Hablemos"
+        "cta": "Hablemos",
+        "description": "Estoy disponible para proyectos freelance, colaboraciones o posiciones a tiempo completo. Si tienes una idea o necesitas ayuda con tu proyecto, escríbeme.",
+        "email": "Enviar email",
+        "availability": "Disponible: Presencial · Híbrido · Remoto"
     },
     "footer": {
         "copyright": "© 2025 Carlos Garzón López. Todos los derechos reservados.",

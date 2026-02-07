@@ -25,7 +25,41 @@
     },
     "about": {
         "title": "About Me",
-        "subtitle": "A developer in constant evolution"
+        "subtitle": "A developer in constant evolution",
+        "bio": "I started programming attracted by the freedom to work from anywhere. Over time, I discovered something more valuable: the ability to create anything imaginable. Being able to materialize a business idea, a game, or a concern into something real is what makes me look at the world with excitement.",
+        "values": {
+            "title": "Values",
+            "closeness": {
+                "title": "Closeness",
+                "description": "I work side by side with the client, without barriers"
+            },
+            "honesty": {
+                "title": "Honesty",
+                "description": "I'd rather say \"not viable\" than promise what I can't deliver"
+            },
+            "clarity": {
+                "title": "Clarity",
+                "description": "Paths and plans that anyone can understand"
+            },
+            "robustness": {
+                "title": "Robustness",
+                "description": "Every decision weighed with pros, cons, and impact"
+            },
+            "scalability": {
+                "title": "Future vision",
+                "description": "Code designed to scale and be maintained long-term"
+            }
+        },
+        "hobbies": {
+            "title": "Outside of code",
+            "description": "I play the violin, play padel weekly, and work out several times a week. My next pursuit: boxing."
+        },
+        "languages": {
+            "title": "Languages",
+            "spanish": "Spanish (native)",
+            "catalan": "Catalan (native)",
+            "english": "English (B2+ conversational)"
+        }
     },
     "projects": {
         "title": "Projects",
@@ -33,26 +67,86 @@
         "viewCode": "View code",
         "viewDemo": "View demo",
         "featured": "Featured",
-        "learning": "Learning project"
+        "learning": "Learning project",
+        "deploying": "Pre-launch",
+        "arynstal": {
+            "title": "Arynstal CRM",
+            "description": "Lead management system in production for an installation company. Includes secure contact form, admin panel with audit trail, automatic notifications, and GDPR compliance.",
+            "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
+        },
+        "portfolio": {
+            "title": "Personal Portfolio",
+            "description": "This very site. Custom i18n system in vanilla JavaScript, responsive design, optimized accessibility, and careful performance.",
+            "stack": "HTML5, CSS3, JavaScript, Vite"
+        },
+        "appfp": {
+            "title": "Sports Management App",
+            "description": "Android application developed as final degree project. Team, player, and match management with local database.",
+            "stack": "Kotlin, Android Studio, SQLite"
+        },
+        "testimonial": {
+            "quote": "Carlos understood our needs from day one and delivered a system we use daily. Professional and approachable.",
+            "author": "Arynstal SL"
+        }
     },
     "stack": {
         "title": "Tech Stack",
         "current": "Currently working with",
-        "learning": "Learning"
+        "learning": "Learning",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools",
+        "methodologies": "Methodologies",
+        "methodologiesDesc": "I work following principles of"
     },
     "education": {
         "title": "Education",
         "inProgress": "In progress",
-        "completed": "Completed"
+        "completed": "Completed",
+        "items": {
+            "master": {
+                "title": "Master's in Full-Stack Web Development",
+                "institution": "ConquerBlocks"
+            },
+            "fp": {
+                "title": "Higher Degree in Multiplatform Application Development",
+                "institution": "IES Provençana"
+            }
+        }
     },
     "process": {
         "title": "How I Work",
-        "subtitle": "My development approach"
+        "subtitle": "My development approach",
+        "steps": {
+            "understand": {
+                "number": "01",
+                "title": "Understand",
+                "description": "I listen and ask until I understand the real problem, not just the symptoms."
+            },
+            "plan": {
+                "number": "02",
+                "title": "Plan",
+                "description": "I define scope, priorities, and clear deliverables before writing a single line of code."
+            },
+            "develop": {
+                "number": "03",
+                "title": "Develop",
+                "description": "I build iteratively, validating each step with continuous feedback."
+            },
+            "deliver": {
+                "number": "04",
+                "title": "Deliver",
+                "description": "I deploy with clear documentation and support so the system lasts."
+            }
+        }
     },
     "contact": {
         "title": "Contact",
         "subtitle": "Have a project in mind?",
-        "cta": "Let's talk"
+        "cta": "Let's talk",
+        "description": "I'm available for freelance projects, collaborations, or full-time positions. If you have an idea or need help with your project, reach out.",
+        "email": "Send email",
+        "availability": "Available: On-site · Hybrid · Remote"
     },
     "footer": {
         "copyright": "© 2025 Carlos Garzón López. All rights reserved.",

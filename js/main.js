@@ -161,11 +161,79 @@ const Portfolio = (function() {
     }
 
     // ==========================================
+    // Feature: Process Section Interactivity
+    // ==========================================
+    function initProcessSection() {
+        const steps = document.querySelectorAll('.process-step[data-step]');
+        const markers = document.querySelectorAll('.process__marker[data-step]');
+        const progressFill = document.getElementById('process-progress-fill');
+
+        if (!steps.length || !markers.length || !progressFill) {
+            return;
+        }
+
+        function setActiveStep(stepNumber) {
+            const totalSteps = steps.length;
+            const progressPercentage = ((stepNumber - 1) / (totalSteps - 1)) * 100;
+
+            // Update progress bar
+            progressFill.style.width = `${progressPercentage}%`;
+
+            // Update markers
+            markers.forEach(marker => {
+                const markerStep = parseInt(marker.dataset.step, 10);
+                marker.classList.remove('process__marker--active', 'process__marker--completed');
+
+                if (markerStep === stepNumber) {
+                    marker.classList.add('process__marker--active');
+                } else if (markerStep < stepNumber) {
+                    marker.classList.add('process__marker--completed');
+                }
+            });
+
+            // Update step cards
+            steps.forEach(step => {
+                const cardStep = parseInt(step.dataset.step, 10);
+                step.classList.toggle('process-step--active', cardStep === stepNumber);
+            });
+        }
+
+        // Click handlers for markers
+        markers.forEach(marker => {
+            marker.addEventListener('click', () => {
+                const stepNumber = parseInt(marker.dataset.step, 10);
+                setActiveStep(stepNumber);
+            });
+        });
+
+        // Click handlers for step cards
+        steps.forEach(step => {
+            step.addEventListener('click', () => {
+                const stepNumber = parseInt(step.dataset.step, 10);
+                setActiveStep(stepNumber);
+            });
+        });
+
+        // Hover handlers for step cards (optional preview)
+        steps.forEach(step => {
+            step.addEventListener('mouseenter', () => {
+                const stepNumber = parseInt(step.dataset.step, 10);
+                setActiveStep(stepNumber);
+            });
+        });
+
+        // Initialize at step 1
+        setActiveStep(1);
+
+        log('Process section initialized');
+    }
+
+    // ==========================================
     // Feature: Console Easter Egg
     // ==========================================
     function initConsoleEasterEgg() {
         const styles = [
-            'color: #3b82f6',
+            'color: #2ecc71',
             'font-size: 14px',
             'font-weight: bold',
             'padding: 10px'
@@ -173,8 +241,8 @@ const Portfolio = (function() {
 
         console.log('%c¡Hola! 👋', styles);
         console.log('%cSi estás leyendo esto, probablemente te interesa el código.', 'color: #a1a1aa');
-        console.log('%cEcha un vistazo al repositorio: https://github.com/cgvrzon/cgvrzon.github.io', 'color: #22d3ee');
-        console.log('%c¿Tienes alguna pregunta? Escríbeme a contacto@cgvrzon.dev', 'color: #a1a1aa');
+        console.log('%cEcha un vistazo al repositorio: https://github.com/cgvrzon/cgvrzon.github.io', 'color: #2ecc71');
+        console.log('%c¿Tienes alguna pregunta? Escríbeme a garzoncl01@gmail.com', 'color: #a1a1aa');
     }
 
     // ==========================================
@@ -196,6 +264,7 @@ const Portfolio = (function() {
         initKeyboardNav();
         initDynamicYear();
         initLanguageListener();
+        initProcessSection();
         initConsoleEasterEgg();
 
         isInitialized = true;

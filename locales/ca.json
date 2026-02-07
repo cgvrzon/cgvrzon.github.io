@@ -25,7 +25,41 @@
     },
     "about": {
         "title": "Sobre mi",
-        "subtitle": "Un desenvolupador en evolució constant"
+        "subtitle": "Un desenvolupador en evolució constant",
+        "bio": "Vaig començar a programar atret per la llibertat de treballar des de qualsevol lloc. Amb el temps vaig descobrir quelcom més valuós: la capacitat de crear qualsevol cosa imaginable. Poder materialitzar una idea de negoci, un joc o una inquietud en quelcom real és el que em fa mirar el món amb il·lusió.",
+        "values": {
+            "title": "Valors",
+            "closeness": {
+                "title": "Proximitat",
+                "description": "Treballo colze a colze amb el client, sense barreres"
+            },
+            "honesty": {
+                "title": "Honestedat",
+                "description": "Prefereixo dir \"no és viable\" a prometre el que no puc"
+            },
+            "clarity": {
+                "title": "Claredat",
+                "description": "Rutes i plans que qualsevol pugui entendre"
+            },
+            "robustness": {
+                "title": "Robustesa",
+                "description": "Cada decisió sospesada amb pros, contres i impacte"
+            },
+            "scalability": {
+                "title": "Visió de futur",
+                "description": "Codi pensat per escalar i mantenir-se a llarg termini"
+            }
+        },
+        "hobbies": {
+            "title": "Fora del codi",
+            "description": "Toco el violí, jugo a pàdel setmanalment i entreno diverses vegades per setmana. La meva propera inquietud: boxa."
+        },
+        "languages": {
+            "title": "Idiomes",
+            "spanish": "Castellà (natiu)",
+            "catalan": "Català (natiu)",
+            "english": "Anglès (B2+ conversacional)"
+        }
     },
     "projects": {
         "title": "Projectes",
@@ -33,26 +67,86 @@
         "viewCode": "Veure codi",
         "viewDemo": "Veure demo",
         "featured": "Destacat",
-        "learning": "Projecte formatiu"
+        "learning": "Projecte formatiu",
+        "deploying": "Pre-llançament",
+        "arynstal": {
+            "title": "Arynstal CRM",
+            "description": "Sistema de gestió de leads en producció per a empresa d'instal·lacions. Inclou formulari de contacte segur, panell admin amb auditoria, notificacions automàtiques i compliment RGPD.",
+            "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
+        },
+        "portfolio": {
+            "title": "Portfolio Personal",
+            "description": "Aquest mateix lloc. Sistema i18n propi en JavaScript vanilla, disseny responsive, accessibilitat optimitzada i rendiment cuidat.",
+            "stack": "HTML5, CSS3, JavaScript, Vite"
+        },
+        "appfp": {
+            "title": "App Gestió Esportiva",
+            "description": "Aplicació Android desenvolupada com a projecte final de FP. Gestió d'equips, jugadors i partits amb base de dades local.",
+            "stack": "Kotlin, Android Studio, SQLite"
+        },
+        "testimonial": {
+            "quote": "Carlos va entendre les nostres necessitats des del primer dia i ens va entregar un sistema que fem servir diàriament. Professional i proper.",
+            "author": "Arynstal SL"
+        }
     },
     "stack": {
         "title": "Stack Tecnològic",
-        "current": "Actualment treballo amb",
-        "learning": "En aprenentatge"
+        "current": "Treballo actualment",
+        "learning": "En aprenentatge",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Eines",
+        "methodologies": "Metodologies",
+        "methodologiesDesc": "Treballo seguint principis de"
     },
     "education": {
         "title": "Formació",
         "inProgress": "En curs",
-        "completed": "Completat"
+        "completed": "Completat",
+        "items": {
+            "master": {
+                "title": "Màster en Desenvolupament Web Full-Stack",
+                "institution": "ConquerBlocks"
+            },
+            "fp": {
+                "title": "CFGS Desenvolupament d'Aplicacions Multiplataforma",
+                "institution": "IES Provençana"
+            }
+        }
     },
     "process": {
         "title": "Com treballo",
-        "subtitle": "El meu enfocament de desenvolupament"
+        "subtitle": "El meu enfocament de desenvolupament",
+        "steps": {
+            "understand": {
+                "number": "01",
+                "title": "Entendre",
+                "description": "Escolto i pregunto fins a comprendre el problema real, no només els símptomes."
+            },
+            "plan": {
+                "number": "02",
+                "title": "Planificar",
+                "description": "Defineixo abast, prioritats i lliurables clars abans d'escriure una línia de codi."
+            },
+            "develop": {
+                "number": "03",
+                "title": "Desenvolupar",
+                "description": "Construeixo iterativament, validant cada pas amb feedback continu."
+            },
+            "deliver": {
+                "number": "04",
+                "title": "Lliurar",
+                "description": "Desplegue amb documentació clara i suport perquè el sistema perduri."
+            }
+        }
     },
     "contact": {
         "title": "Contacte",
         "subtitle": "Tens un projecte en ment?",
-        "cta": "Parlem"
+        "cta": "Parlem",
+        "description": "Estic disponible per a projectes freelance, col·laboracions o posicions a temps complet. Si tens una idea o necessites ajuda amb el teu projecte, escriu-me.",
+        "email": "Enviar email",
+        "availability": "Disponible: Presencial · Híbrid · Remot"
     },
     "footer": {
         "copyright": "© 2025 Carlos Garzón López. Tots els drets reservats.",
