@@ -26,28 +26,32 @@
     "about": {
         "title": "Sobre mi",
         "subtitle": "Un desenvolupador en evolució constant",
-        "bio": "Vaig començar a programar atret per la llibertat de treballar des de qualsevol lloc. Amb el temps vaig descobrir quelcom més valuós: la capacitat de crear qualsevol cosa imaginable. Poder materialitzar una idea de negoci, un joc o una inquietud en quelcom real és el que em fa mirar el món amb il·lusió.",
+        "bio": "Vaig començar a programar atret per la llibertat de treballar des de qualsevol lloc. Amb el temps vaig descobrir quelcom més valuós: la capacitat de convertir una idea en quelcom tangible. No parlo només d'escriure codi — parlo de seure amb tu, entendre què necessites i construir quelcom que de veritat funcioni en el teu dia a dia. Poder transformar la inquietud d'un client en una eina que fa servir cada matí és el que em fa gaudir d'aquesta feina.",
         "values": {
             "title": "Valors",
             "closeness": {
                 "title": "Proximitat",
-                "description": "Treballo colze a colze amb el client, sense barreres"
+                "description": "No soc un proveïdor que desapareix després d'un pressupost. M'implico, pregunto i m'asseguro que entenguis cada pas del camí."
             },
             "honesty": {
                 "title": "Honestedat",
-                "description": "Prefereixo dir \"no és viable\" a prometre el que no puc"
+                "description": "Si quelcom no és possible o no té sentit, t'ho dic. Prefereixo una conversa incòmoda a temps que una sorpresa desagradable després."
             },
             "clarity": {
                 "title": "Claredat",
-                "description": "Rutes i plans que qualsevol pugui entendre"
+                "description": "T'explico què faig i per què ho faig, sense jerga ni tecnicismes. El teu projecte, les teves decisions: jo et dono la informació per prendre-les."
             },
             "robustness": {
                 "title": "Robustesa",
-                "description": "Cada decisió sospesada amb pros, contres i impacte"
+                "description": "Abans de construir, analitzo. Cada decisió tècnica la sopeso amb els seus avantatges, riscos i impacte perquè res sigui fruit de l'atzar."
             },
             "scalability": {
                 "title": "Visió de futur",
-                "description": "Codi pensat per escalar i mantenir-se a llarg termini"
+                "description": "No construeixo només per avui. Penso en com el teu projecte creixerà i m'asseguro que la base aguanti el que vingui."
+            },
+            "commitment": {
+                "title": "Compromís",
+                "description": "El teu projecte és el meu projecte. Em bolco en cada detall perquè sé que darrere hi ha persones, idees i esforç que mereixen el millor."
             }
         },
         "hobbies": {
@@ -116,27 +120,27 @@
     },
     "process": {
         "title": "Com treballo",
-        "subtitle": "El meu enfocament de desenvolupament",
+        "subtitle": "Així és treballar amb mi",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entendre",
-                "description": "Escolto i pregunto fins a comprendre el problema real, no només els símptomes."
+                "description": "Abans de tocar res, m'assec amb tu. Escolto el que necessites, pregunto el que no queda clar i m'asseguro d'entendre el problema d'arrel."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Defineixo abast, prioritats i lliurables clars abans d'escriure una línia de codi."
+                "description": "Amb tot clar, traço un pla concret: què es farà, en quin ordre i què rebràs en cada fase. Sense sorpreses, sense lletra petita."
             },
             "develop": {
                 "number": "03",
                 "title": "Desenvolupar",
-                "description": "Construeixo iterativament, validant cada pas amb feedback continu."
+                "description": "Construeixo pas a pas, mostrant-te avenços reals perquè puguis donar la teva opinió sobre la marxa. Res d'esperar mesos per veure un resultat."
             },
             "deliver": {
                 "number": "04",
                 "title": "Lliurar",
-                "description": "Desplegue amb documentació clara i suport perquè el sistema perduri."
+                "description": "No et deixo amb un producte i ja. T'ho entrego tot documentat, t'explico com funciona i em quedo disponible per al que necessitis després."
             }
         }
     },

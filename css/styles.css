@@ -1092,6 +1092,7 @@ button {
     background-color: var(--color-bg-elevated);
     border: 2px solid var(--color-border);
     border-radius: var(--radius-full);
+    overflow: hidden;
     cursor: pointer;
     transition:
         color var(--transition-fast),

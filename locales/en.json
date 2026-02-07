@@ -26,28 +26,32 @@
     "about": {
         "title": "About Me",
         "subtitle": "A developer in constant evolution",
-        "bio": "I started programming attracted by the freedom to work from anywhere. Over time, I discovered something more valuable: the ability to create anything imaginable. Being able to materialize a business idea, a game, or a concern into something real is what makes me look at the world with excitement.",
+        "bio": "I got into programming drawn by the freedom to work from anywhere. Over time, I discovered something more valuable: the ability to turn an idea into something real. I'm not just talking about writing code — I'm talking about sitting down with you, understanding what you need, and building something that actually works in your day-to-day. Turning a client's concern into a tool they use every morning is what makes me love this work.",
         "values": {
             "title": "Values",
             "closeness": {
                 "title": "Closeness",
-                "description": "I work side by side with the client, without barriers"
+                "description": "I'm not a provider who vanishes after a quote. I get involved, I ask questions, and I make sure you understand every step of the way."
             },
             "honesty": {
                 "title": "Honesty",
-                "description": "I'd rather say \"not viable\" than promise what I can't deliver"
+                "description": "If something isn't possible or doesn't make sense, I'll tell you. I'd rather have an uncomfortable conversation early than an unpleasant surprise later."
             },
             "clarity": {
                 "title": "Clarity",
-                "description": "Paths and plans that anyone can understand"
+                "description": "I explain what I do and why I do it, without jargon or buzzwords. Your project, your decisions — I give you the information to make them."
             },
             "robustness": {
                 "title": "Robustness",
-                "description": "Every decision weighed with pros, cons, and impact"
+                "description": "Before building, I analyze. Every technical decision is weighed with its advantages, risks, and impact so nothing is left to chance."
             },
             "scalability": {
                 "title": "Future vision",
-                "description": "Code designed to scale and be maintained long-term"
+                "description": "I don't build just for today. I think about how your project will grow and make sure the foundation can handle whatever comes next."
+            },
+            "commitment": {
+                "title": "Commitment",
+                "description": "Your project is my project. I pour myself into every detail because I know there are people, ideas, and effort behind it that deserve the best."
             }
         },
         "hobbies": {
@@ -116,27 +120,27 @@
     },
     "process": {
         "title": "How I Work",
-        "subtitle": "My development approach",
+        "subtitle": "What working with me looks like",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Understand",
-                "description": "I listen and ask until I understand the real problem, not just the symptoms."
+                "description": "Before touching anything, I sit down with you. I listen to what you need, ask about what's unclear, and make sure I understand the root problem."
             },
             "plan": {
                 "number": "02",
                 "title": "Plan",
-                "description": "I define scope, priorities, and clear deliverables before writing a single line of code."
+                "description": "With everything clear, I lay out a concrete plan: what will be done, in what order, and what you'll receive at each stage. No surprises, no fine print."
             },
             "develop": {
                 "number": "03",
                 "title": "Develop",
-                "description": "I build iteratively, validating each step with continuous feedback."
+                "description": "I build step by step, showing you real progress so you can share your feedback along the way. No waiting months to see a result."
             },
             "deliver": {
                 "number": "04",
                 "title": "Deliver",
-                "description": "I deploy with clear documentation and support so the system lasts."
+                "description": "I don't just hand you a product and walk away. I deliver everything documented, explain how it works, and stay available for whatever you need after."
             }
         }
     },

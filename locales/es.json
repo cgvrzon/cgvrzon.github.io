@@ -26,28 +26,32 @@
     "about": {
         "title": "Sobre mí",
         "subtitle": "Desarrollador en evolución constante",
-        "bio": "Empecé en programación atraído por la libertad de trabajar desde cualquier lugar. Con el tiempo descubrí algo más valioso: la capacidad de crear cualquier cosa imaginable. Poder materializar una idea de negocio, un juego o una inquietud en algo real es lo que me hace mirar al mundo con ilusión.",
+        "bio": "Empecé en programación atraído por la libertad de trabajar desde cualquier lugar. Con el tiempo descubrí algo más valioso: la capacidad de convertir una idea en algo tangible. No hablo solo de escribir código — hablo de sentarme contigo, entender qué necesitas y construir algo que de verdad funcione en tu día a día. Poder transformar la inquietud de un cliente en una herramienta que usa cada mañana es lo que me hace disfrutar de este trabajo.",
         "values": {
             "title": "Valores",
             "closeness": {
                 "title": "Cercanía",
-                "description": "Trabajo codo a codo con el cliente, sin barreras"
+                "description": "No soy un proveedor que desaparece tras un presupuesto. Me involucro, pregunto, y me aseguro de que entiendas cada paso del camino."
             },
             "honesty": {
                 "title": "Honestidad",
-                "description": "Prefiero decir \"no es viable\" a prometer lo que no puedo"
+                "description": "Si algo no es posible o no tiene sentido, te lo digo. Prefiero una conversación incómoda a tiempo que una sorpresa desagradable después."
             },
             "clarity": {
                 "title": "Claridad",
-                "description": "Rutas y planes que cualquiera pueda entender"
+                "description": "Te explico lo que hago y por qué lo hago, sin jerga ni tecnicismos. Tu proyecto, tus decisiones: yo te doy la información para tomarlas."
             },
             "robustness": {
                 "title": "Robustez",
-                "description": "Cada decisión sopesada con pros, contras e impacto"
+                "description": "Antes de construir, analizo. Cada decisión técnica la sopeso con sus ventajas, riesgos e impacto para que nada sea fruto del azar."
             },
             "scalability": {
                 "title": "Visión de futuro",
-                "description": "Código pensado para escalar y mantenerse a largo plazo"
+                "description": "No construyo solo para hoy. Pienso en cómo tu proyecto crecerá y me aseguro de que la base aguante lo que venga."
+            },
+            "commitment": {
+                "title": "Compromiso",
+                "description": "Tu proyecto es mi proyecto. Me vuelco en cada detalle porque sé que detrás hay personas, ideas y esfuerzo que merecen lo mejor."
             }
         },
         "hobbies": {
@@ -116,27 +120,27 @@
     },
     "process": {
         "title": "Cómo trabajo",
-        "subtitle": "Mi enfoque de desarrollo",
+        "subtitle": "Así es trabajar conmigo",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entender",
-                "description": "Escucho y pregunto hasta comprender el problema real, no solo los síntomas."
+                "description": "Antes de tocar nada, me siento contigo. Escucho lo que necesitas, pregunto lo que no queda claro y me aseguro de entender el problema de raíz."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Defino alcance, prioridades y entregables claros antes de escribir una línea de código."
+                "description": "Con todo claro, trazo un plan concreto: qué se va a hacer, en qué orden y qué vas a recibir en cada fase. Sin sorpresas, sin letra pequeña."
             },
             "develop": {
                 "number": "03",
                 "title": "Desarrollar",
-                "description": "Construyo iterativamente, validando cada paso con feedback continuo."
+                "description": "Construyo paso a paso, mostrándote avances reales para que puedas dar tu opinión sobre la marcha. Nada de esperar meses a ver un resultado."
             },
             "deliver": {
                 "number": "04",
                 "title": "Entregar",
-                "description": "Despliego con documentación clara y soporte para que el sistema perdure."
+                "description": "No te dejo con un producto y ya. Te entrego todo documentado, te explico cómo funciona y me quedo disponible para lo que necesites después."
             }
         }
     },
