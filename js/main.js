@@ -229,6 +229,90 @@ const Portfolio = (function() {
     }
 
     // ==========================================
+    // Feature: Values Clockwise Rotation on Hover
+    // ==========================================
+    function initValuesRotation() {
+        const grid = document.querySelector('.values-grid');
+        if (!grid) return;
+
+        const cards = Array.from(grid.querySelectorAll('.value-card'));
+        if (cards.length !== 6) return;
+
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        // Clockwise ring: top-left(0) → top-right(1) → mid-right(3) → bottom-right(5) → bottom-left(4) → mid-left(2)
+        const ring = [0, 1, 3, 5, 4, 2];
+
+        let interval = null;
+        let shift = 0;
+        let basePositions = null;
+
+        function captureBase() {
+            cards.forEach(c => {
+                c.style.transition = 'none';
+                c.style.transform = '';
+            });
+            grid.offsetHeight;
+
+            basePositions = cards.map(c => {
+                const r = c.getBoundingClientRect();
+                return { x: r.left, y: r.top };
+            });
+        }
+
+        function applyShift() {
+            cards.forEach((card, i) => {
+                const ringIdx = ring.indexOf(i);
+                const targetIdx = ring[(ringIdx + shift) % 6];
+
+                const dx = basePositions[targetIdx].x - basePositions[i].x;
+                const dy = basePositions[targetIdx].y - basePositions[i].y;
+
+                card.style.transform = `translate(${dx}px, ${dy}px)`;
+            });
+        }
+
+        grid.addEventListener('mouseenter', () => {
+            if (window.innerWidth < 768) return;
+
+            captureBase();
+
+            requestAnimationFrame(() => {
+                cards.forEach(c => {
+                    c.style.transition = 'transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                });
+
+                requestAnimationFrame(() => {
+                    shift = 1;
+                    applyShift();
+                    interval = setInterval(() => {
+                        shift = (shift + 1) % 6;
+                        applyShift();
+                    }, 1500);
+                });
+            });
+        });
+
+        grid.addEventListener('mouseleave', () => {
+            clearInterval(interval);
+            interval = null;
+            shift = 0;
+
+            cards.forEach(c => {
+                c.style.transform = '';
+            });
+
+            setTimeout(() => {
+                cards.forEach(c => {
+                    c.style.transition = '';
+                });
+            }, 800);
+        });
+
+        log('Values rotation initialized');
+    }
+
+    // ==========================================
     // Feature: Console Easter Egg
     // ==========================================
     function initConsoleEasterEgg() {
@@ -265,6 +349,7 @@ const Portfolio = (function() {
         initDynamicYear();
         initLanguageListener();
         initProcessSection();
+        initValuesRotation();
         initConsoleEasterEgg();
 
         isInitialized = true;
