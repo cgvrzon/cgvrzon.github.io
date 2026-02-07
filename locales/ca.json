@@ -31,27 +31,27 @@
             "title": "Valors",
             "closeness": {
                 "title": "Proximitat",
-                "description": "No soc un proveïdor que desapareix després d'un pressupost. M'implico, pregunto i m'asseguro que entenguis cada pas del camí."
+                "description": "M'implico de principi a fi. No desapareixo després d'un pressupost."
             },
             "honesty": {
                 "title": "Honestedat",
-                "description": "Si quelcom no és possible o no té sentit, t'ho dic. Prefereixo una conversa incòmoda a temps que una sorpresa desagradable després."
+                "description": "Si quelcom no és viable, t'ho dic a temps. Sense sorpreses."
             },
             "clarity": {
                 "title": "Claredat",
-                "description": "T'explico què faig i per què ho faig, sense jerga ni tecnicismes. El teu projecte, les teves decisions: jo et dono la informació per prendre-les."
+                "description": "T'ho explico tot sense jerga. El teu projecte, les teves decisions."
             },
             "robustness": {
                 "title": "Robustesa",
-                "description": "Abans de construir, analitzo. Cada decisió tècnica la sopeso amb els seus avantatges, riscos i impacte perquè res sigui fruit de l'atzar."
+                "description": "Analitzo abans de construir. Res queda a l'atzar."
             },
             "scalability": {
                 "title": "Visió de futur",
-                "description": "No construeixo només per avui. Penso en com el teu projecte creixerà i m'asseguro que la base aguanti el que vingui."
+                "description": "Construeixo pensant en el demà, no només en l'avui."
             },
             "commitment": {
                 "title": "Compromís",
-                "description": "El teu projecte és el meu projecte. Em bolco en cada detall perquè sé que darrere hi ha persones, idees i esforç que mereixen el millor."
+                "description": "El teu projecte és el meu projecte. Em bolco en cada detall."
             }
         },
         "hobbies": {
@@ -84,9 +84,9 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "App Gestió Esportiva",
-            "description": "Aplicació Android desenvolupada com a projecte final de FP. Gestió d'equips, jugadors i partits amb base de dades local.",
-            "stack": "Kotlin, Android Studio, SQLite"
+            "title": "Pointer (aplicació mòbil)",
+            "description": "Aplicació Android desenvolupada com a projecte final de FP. Format: Aplicació de realització de tests. Gestió CRUD del perfil d'usuari i les partides realitzades. Funcionalitats extra: fòrum de notícies i recursos.",
+            "stack": "Java, Android Studio, PostgreSQL"
         },
         "testimonial": {
             "quote": "Carlos va entendre les nostres necessitats des del primer dia i ens va entregar un sistema que fem servir diàriament. Professional i proper.",

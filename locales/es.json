@@ -31,27 +31,27 @@
             "title": "Valores",
             "closeness": {
                 "title": "Cercanía",
-                "description": "No soy un proveedor que desaparece tras un presupuesto. Me involucro, pregunto, y me aseguro de que entiendas cada paso del camino."
+                "description": "Me involucro de principio a fin. No desaparezco tras un presupuesto."
             },
             "honesty": {
                 "title": "Honestidad",
-                "description": "Si algo no es posible o no tiene sentido, te lo digo. Prefiero una conversación incómoda a tiempo que una sorpresa desagradable después."
+                "description": "Si algo no es viable, te lo digo a tiempo. Sin sorpresas."
             },
             "clarity": {
                 "title": "Claridad",
-                "description": "Te explico lo que hago y por qué lo hago, sin jerga ni tecnicismos. Tu proyecto, tus decisiones: yo te doy la información para tomarlas."
+                "description": "Te explico todo sin jerga. Tu proyecto, tus decisiones."
             },
             "robustness": {
                 "title": "Robustez",
-                "description": "Antes de construir, analizo. Cada decisión técnica la sopeso con sus ventajas, riesgos e impacto para que nada sea fruto del azar."
+                "description": "Analizo antes de construir. Nada queda al azar."
             },
             "scalability": {
                 "title": "Visión de futuro",
-                "description": "No construyo solo para hoy. Pienso en cómo tu proyecto crecerá y me aseguro de que la base aguante lo que venga."
+                "description": "Construyo pensando en el mañana, no solo en el hoy."
             },
             "commitment": {
                 "title": "Compromiso",
-                "description": "Tu proyecto es mi proyecto. Me vuelco en cada detalle porque sé que detrás hay personas, ideas y esfuerzo que merecen lo mejor."
+                "description": "Tu proyecto es mi proyecto. Me vuelco en cada detalle."
             }
         },
         "hobbies": {
@@ -84,9 +84,9 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "App Gestión Deportiva",
-            "description": "Aplicación Android desarrollada como proyecto final de FP. Gestión de equipos, jugadores y partidos con base de datos local.",
-            "stack": "Kotlin, Android Studio, SQLite"
+            "title": "Pointer (aplicacion móvil)",
+            "description": "Aplicación Android desarrollada como proyecto final de FP. Formato: Aplicación de realización de tests. Gestión CRUD del perfil del usuario y las partidas realizadas. Funcionalidades extra: foro de noticias y recursos.",
+            "stack": "Java, Android Studio, PostgreSQL"
         },
         "testimonial": {
             "quote": "Carlos entendió nuestras necesidades desde el primer día y nos entregó un sistema que usamos a diario. Profesional y cercano.",

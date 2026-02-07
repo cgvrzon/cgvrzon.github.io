@@ -31,27 +31,27 @@
             "title": "Values",
             "closeness": {
                 "title": "Closeness",
-                "description": "I'm not a provider who vanishes after a quote. I get involved, I ask questions, and I make sure you understand every step of the way."
+                "description": "I'm involved from start to finish. I don't vanish after a quote."
             },
             "honesty": {
                 "title": "Honesty",
-                "description": "If something isn't possible or doesn't make sense, I'll tell you. I'd rather have an uncomfortable conversation early than an unpleasant surprise later."
+                "description": "If something's not viable, I'll tell you early. No surprises."
             },
             "clarity": {
                 "title": "Clarity",
-                "description": "I explain what I do and why I do it, without jargon or buzzwords. Your project, your decisions — I give you the information to make them."
+                "description": "I explain everything without jargon. Your project, your decisions."
             },
             "robustness": {
                 "title": "Robustness",
-                "description": "Before building, I analyze. Every technical decision is weighed with its advantages, risks, and impact so nothing is left to chance."
+                "description": "I analyze before I build. Nothing left to chance."
             },
             "scalability": {
                 "title": "Future vision",
-                "description": "I don't build just for today. I think about how your project will grow and make sure the foundation can handle whatever comes next."
+                "description": "I build thinking about tomorrow, not just today."
             },
             "commitment": {
                 "title": "Commitment",
-                "description": "Your project is my project. I pour myself into every detail because I know there are people, ideas, and effort behind it that deserve the best."
+                "description": "Your project is my project. I pour into every detail."
             }
         },
         "hobbies": {
@@ -84,9 +84,9 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "Sports Management App",
-            "description": "Android application developed as final degree project. Team, player, and match management with local database.",
-            "stack": "Kotlin, Android Studio, SQLite"
+            "title": "Pointer (mobile app)",
+            "description": "Android application developed as final degree project. Format: Quiz app. CRUD management of user profile and completed games. Extra features: news forum and resources.",
+            "stack": "Java, Android Studio, PostgreSQL"
         },
         "testimonial": {
             "quote": "Carlos understood our needs from day one and delivered a system we use daily. Professional and approachable.",
