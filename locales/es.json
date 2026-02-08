@@ -25,38 +25,38 @@
     },
     "about": {
         "title": "Sobre mí",
-        "subtitle": "Desarrollador en evolución constante",
-        "bio": "Empecé en programación atraído por la libertad de trabajar desde cualquier lugar. Con el tiempo descubrí algo más valioso: la capacidad de convertir una idea en algo tangible. No hablo solo de escribir código — hablo de sentarme contigo, entender qué necesitas y construir algo que de verdad funcione en tu día a día. Poder transformar la inquietud de un cliente en una herramienta que usa cada mañana es lo que me hace disfrutar de este trabajo.",
+        "subtitle": "Desarrollador en constante evolución",
+        "bio": "Decidí escoger la programación movido por la curiosidad que despertaba en mi las posibilidades que este mundo ofrecía. Con el tiempo descubrí algo que me cautivó de este campo: permitía crear y materializar cualquier idea concebible. La capacidad de convertir una idea en algo tangible. No hablo solo de escribir código — hablo de sentarme y charlar contigo, entender qué necesitas y construir algo que de verdad funcione en tu día a día. Poder transformar la inquietud de un cliente en una herramienta de uso diario es uno de los motivos que más me hace disfrutar de este trabajo.",
         "values": {
             "title": "Valores",
             "closeness": {
                 "title": "Cercanía",
-                "description": "Me involucro de principio a fin. No desaparezco tras un presupuesto."
+                "description": "Yo construyo, tú decides. Transparencia, feedback y colaboración durante todo el proceso."
             },
             "honesty": {
                 "title": "Honestidad",
-                "description": "Si algo no es viable, te lo digo a tiempo. Sin sorpresas."
+                "description": "Si algo no es viable, lo comunico de entrada. Mi máxima es entregar un producto optimizado para el contexto del negocio."
             },
             "clarity": {
                 "title": "Claridad",
-                "description": "Te explico todo sin jerga. Tu proyecto, tus decisiones."
+                "description": "Comunicación directa y cercana. Siempre dispuesto para aclarar dudas y preguntas."
             },
             "robustness": {
                 "title": "Robustez",
-                "description": "Analizo antes de construir. Nada queda al azar."
+                "description": "Analizo antes de construir. Se analizan y evalúan los pros, los contras y el impacto detrás de cada decisión."
             },
             "scalability": {
                 "title": "Visión de futuro",
-                "description": "Construyo pensando en el mañana, no solo en el hoy."
+                "description": "Construyo pensando en el mañana. Mi objetivo: que mi producto impulse tu negocio. Si el negocio escala el producto escala acordemente."
             },
             "commitment": {
                 "title": "Compromiso",
-                "description": "Tu proyecto es mi proyecto. Me vuelco en cada detalle."
+                "description": "Tu proyecto es mi proyecto. ¡Durante su creación somos un equipo!"
             }
         },
         "hobbies": {
             "title": "Fuera del código",
-            "description": "Toco el violín, juego al pádel semanalmente y entreno varias veces por semana. Mi próxima inquietud: boxeo."
+            "description": "Me considero alguien curioso e inquieto por norma general. Disfruto teniendo frentes abiertos en mi vida que me reten y me empujen. Por ello el deporte siempre ha tomado una parte importante en mi crecimiento. Actualmente entreno en el gimnasio y juego a pádel todas las semanas, me gusta mantenerme activo mental y físicamente. Toco el violín desde la primaria y es una actividad que me sigue aportando mucho a día de hoy."
         },
         "languages": {
             "title": "Idiomas",
@@ -75,7 +75,7 @@
         "deploying": "Pre-lanzamiento",
         "arynstal": {
             "title": "Arynstal CRM",
-            "description": "Sistema de gestión de leads en producción para empresa de instalaciones. Incluye formulario de contacto seguro, panel admin con auditoría, notificaciones automáticas y cumplimiento RGPD.",
+            "description": "Sistema de gestión de leads en producción para empresa de instalaciones y reformas. Incluye formulario de contacto seguro, panel admin con auditoría, notificaciones automáticas y cumplimiento RGPD.",
             "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
         },
         "portfolio": {
@@ -84,12 +84,12 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "Pointer (aplicacion móvil)",
-            "description": "Aplicación Android desarrollada como proyecto final de FP. Formato: Aplicación de realización de tests. Gestión CRUD del perfil del usuario y las partidas realizadas. Funcionalidades extra: foro de noticias y recursos.",
-            "stack": "Java, Android Studio, PostgreSQL"
+            "title": "App Gestión Deportiva",
+            "description": "Aplicación Android desarrollada como proyecto final de FP. Gestión de equipos, jugadores y partidos con base de datos local.",
+            "stack": "Kotlin, Android Studio, SQLite"
         },
         "testimonial": {
-            "quote": "Carlos entendió nuestras necesidades desde el primer día y nos entregó un sistema que usamos a diario. Profesional y cercano.",
+            "quote": "Desde el primer momento colaborar para la creación del producto fue muy sencillo. Carlos entendió las necesidades y la visión del negocio. Estamos muy agradecidos con la herramienta que está construyendo para la empresa.",
             "author": "Arynstal SL"
         }
     },
@@ -101,7 +101,7 @@
         "backend": "Backend",
         "tools": "Herramientas",
         "methodologies": "Metodologías",
-        "methodologiesDesc": "Trabajo siguiendo principios de"
+        "methodologiesDesc": "Metodologías de trabajo"
     },
     "education": {
         "title": "Formación",
@@ -120,40 +120,40 @@
     },
     "process": {
         "title": "Cómo trabajo",
-        "subtitle": "Así es trabajar conmigo",
+        "subtitle": "Mis fases de trabajo",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entender",
-                "description": "Antes de tocar nada, me siento contigo. Escucho lo que necesitas, pregunto lo que no queda claro y me aseguro de entender el problema de raíz."
+                "description": "El primer paso para crear el producto es comprenderte. Escucho lo que necesitas, pregunto lo que no queda claro y me aseguro de entender el problema de raíz."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Con todo claro, trazo un plan concreto: qué se va a hacer, en qué orden y qué vas a recibir en cada fase. Sin sorpresas, sin letra pequeña."
+                "description": "Con toda la información dispuesta y clara, trazo un plan concreto: qué se va a hacer, en qué orden y qué vas a recibir en cada fase. Sin sorpresas, sin letra pequeña."
             },
             "develop": {
                 "number": "03",
                 "title": "Desarrollar",
-                "description": "Construyo paso a paso, mostrándote avances reales para que puedas dar tu opinión sobre la marcha. Nada de esperar meses a ver un resultado."
+                "description": "Materialización del concepto creado en las primeras fases: Construyo el código paso a paso, mostrándote avances reales para que puedas dar tu opinión sobre la marcha. El proyecto evoluciona y tú observas su avance."
             },
             "deliver": {
                 "number": "04",
                 "title": "Entregar",
-                "description": "No te dejo con un producto y ya. Te entrego todo documentado, te explico cómo funciona y me quedo disponible para lo que necesites después."
+                "description": "Mi máxima es entregarte una herramienta que puedas utilizar. Entrego un proyecto con documentación y manuales necesarios para su manejo. Siempre dispuesto para ti desde el momento en que entrego el producto en adelante."
             }
         }
     },
     "contact": {
         "title": "Contacto",
-        "subtitle": "¿Tienes un proyecto en mente?",
+        "subtitle": "¿Tienes una idea que quieres crear?",
         "cta": "Hablemos",
         "description": "Estoy disponible para proyectos freelance, colaboraciones o posiciones a tiempo completo. Si tienes una idea o necesitas ayuda con tu proyecto, escríbeme.",
         "email": "Enviar email",
         "availability": "Disponible: Presencial · Híbrido · Remoto"
     },
     "footer": {
-        "copyright": "© 2025 Carlos Garzón López. Todos los derechos reservados.",
+        "copyright": "© 2026 Carlos Garzón López. Todos los derechos reservados.",
         "builtWith": "Construido con"
     },
     "aria": {

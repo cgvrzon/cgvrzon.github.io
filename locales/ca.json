@@ -25,38 +25,38 @@
     },
     "about": {
         "title": "Sobre mi",
-        "subtitle": "Un desenvolupador en evolució constant",
-        "bio": "Vaig començar a programar atret per la llibertat de treballar des de qualsevol lloc. Amb el temps vaig descobrir quelcom més valuós: la capacitat de convertir una idea en quelcom tangible. No parlo només d'escriure codi — parlo de seure amb tu, entendre què necessites i construir quelcom que de veritat funcioni en el teu dia a dia. Poder transformar la inquietud d'un client en una eina que fa servir cada matí és el que em fa gaudir d'aquesta feina.",
+        "subtitle": "Desenvolupador en constant evolució",
+        "bio": "Vaig escollir la programació mogut per la curiositat que despertaven en mi les possibilitats que aquest món oferia. Amb el temps vaig descobrir quelcom que em va captivar d'aquest camp: permetia crear i materialitzar qualsevol idea concebible. La capacitat de convertir una idea en quelcom tangible. No parlo només d'escriure codi — parlo de seure i xerrar amb tu, entendre què necessites i construir quelcom que de veritat funcioni en el teu dia a dia. Poder transformar la inquietud d'un client en una eina d'ús diari és un dels motius que més em fa gaudir d'aquesta feina.",
         "values": {
             "title": "Valors",
             "closeness": {
                 "title": "Proximitat",
-                "description": "M'implico de principi a fi. No desapareixo després d'un pressupost."
+                "description": "Jo construeixo, tu decideixes. Transparència, feedback i col·laboració durant tot el procés."
             },
             "honesty": {
                 "title": "Honestedat",
-                "description": "Si quelcom no és viable, t'ho dic a temps. Sense sorpreses."
+                "description": "Si quelcom no és viable, ho comunico d'entrada. La meva màxima és lliurar un producte optimitzat per al context del negoci."
             },
             "clarity": {
                 "title": "Claredat",
-                "description": "T'ho explico tot sense jerga. El teu projecte, les teves decisions."
+                "description": "Comunicació directa i propera. Sempre disposat per aclarir dubtes i preguntes."
             },
             "robustness": {
                 "title": "Robustesa",
-                "description": "Analitzo abans de construir. Res queda a l'atzar."
+                "description": "Analitzo abans de construir. S'analitzen i s'avaluen els pros, els contres i l'impacte darrere de cada decisió."
             },
             "scalability": {
                 "title": "Visió de futur",
-                "description": "Construeixo pensant en el demà, no només en l'avui."
+                "description": "Construeixo pensant en el demà. El meu objectiu: que el meu producte impulsi el teu negoci. Si el negoci escala, el producte escala d'acord."
             },
             "commitment": {
                 "title": "Compromís",
-                "description": "El teu projecte és el meu projecte. Em bolco en cada detall."
+                "description": "El teu projecte és el meu projecte. Durant la seva creació som un equip!"
             }
         },
         "hobbies": {
             "title": "Fora del codi",
-            "description": "Toco el violí, jugo a pàdel setmanalment i entreno diverses vegades per setmana. La meva propera inquietud: boxa."
+            "description": "Em considero algú curiós i inquiet per norma general. Gaudeixo tenint fronts oberts a la meva vida que em retin i m'empentin. Per això l'esport sempre ha tingut una part important en el meu creixement. Actualment entreno al gimnàs i jugo a pàdel cada setmana, m'agrada mantenir-me actiu mental i físicament. Toco el violí des de primària i és una activitat que em segueix aportant molt a dia d'avui."
         },
         "languages": {
             "title": "Idiomes",
@@ -75,7 +75,7 @@
         "deploying": "Pre-llançament",
         "arynstal": {
             "title": "Arynstal CRM",
-            "description": "Sistema de gestió de leads en producció per a empresa d'instal·lacions. Inclou formulari de contacte segur, panell admin amb auditoria, notificacions automàtiques i compliment RGPD.",
+            "description": "Sistema de gestió de leads en producció per a empresa d'instal·lacions i reformes. Inclou formulari de contacte segur, panell admin amb auditoria, notificacions automàtiques i compliment RGPD.",
             "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
         },
         "portfolio": {
@@ -84,12 +84,12 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "Pointer (aplicació mòbil)",
-            "description": "Aplicació Android desenvolupada com a projecte final de FP. Format: Aplicació de realització de tests. Gestió CRUD del perfil d'usuari i les partides realitzades. Funcionalitats extra: fòrum de notícies i recursos.",
-            "stack": "Java, Android Studio, PostgreSQL"
+            "title": "App Gestió Esportiva",
+            "description": "Aplicació Android desenvolupada com a projecte final de FP. Gestió d'equips, jugadors i partits amb base de dades local.",
+            "stack": "Kotlin, Android Studio, SQLite"
         },
         "testimonial": {
-            "quote": "Carlos va entendre les nostres necessitats des del primer dia i ens va entregar un sistema que fem servir diàriament. Professional i proper.",
+            "quote": "Des del primer moment col·laborar per a la creació del producte va ser molt senzill. Carlos va entendre les necessitats i la visió del negoci. Estem molt agraïts amb l'eina que està construint per a l'empresa.",
             "author": "Arynstal SL"
         }
     },
@@ -101,7 +101,7 @@
         "backend": "Backend",
         "tools": "Eines",
         "methodologies": "Metodologies",
-        "methodologiesDesc": "Treballo seguint principis de"
+        "methodologiesDesc": "Metodologies de treball"
     },
     "education": {
         "title": "Formació",
@@ -120,40 +120,40 @@
     },
     "process": {
         "title": "Com treballo",
-        "subtitle": "Així és treballar amb mi",
+        "subtitle": "Les meves fases de treball",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entendre",
-                "description": "Abans de tocar res, m'assec amb tu. Escolto el que necessites, pregunto el que no queda clar i m'asseguro d'entendre el problema d'arrel."
+                "description": "El primer pas per crear el producte és comprendre't. Escolto el que necessites, pregunto el que no queda clar i m'asseguro d'entendre el problema d'arrel."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Amb tot clar, traço un pla concret: què es farà, en quin ordre i què rebràs en cada fase. Sense sorpreses, sense lletra petita."
+                "description": "Amb tota la informació disposada i clara, traço un pla concret: què es farà, en quin ordre i què rebràs en cada fase. Sense sorpreses, sense lletra petita."
             },
             "develop": {
                 "number": "03",
                 "title": "Desenvolupar",
-                "description": "Construeixo pas a pas, mostrant-te avenços reals perquè puguis donar la teva opinió sobre la marxa. Res d'esperar mesos per veure un resultat."
+                "description": "Materialització del concepte creat a les primeres fases: Construeixo el codi pas a pas, mostrant-te avenços reals perquè puguis donar la teva opinió sobre la marxa. El projecte evoluciona i tu observes el seu avenç."
             },
             "deliver": {
                 "number": "04",
                 "title": "Lliurar",
-                "description": "No et deixo amb un producte i ja. T'ho entrego tot documentat, t'explico com funciona i em quedo disponible per al que necessitis després."
+                "description": "La meva màxima és lliurar-te una eina que puguis utilitzar. Entrego un projecte amb la documentació i manuals necessaris per al seu maneig. Sempre disposat per a tu des del moment en què entrego el producte en endavant."
             }
         }
     },
     "contact": {
         "title": "Contacte",
-        "subtitle": "Tens un projecte en ment?",
+        "subtitle": "Tens una idea que vols crear?",
         "cta": "Parlem",
         "description": "Estic disponible per a projectes freelance, col·laboracions o posicions a temps complet. Si tens una idea o necessites ajuda amb el teu projecte, escriu-me.",
         "email": "Enviar email",
         "availability": "Disponible: Presencial · Híbrid · Remot"
     },
     "footer": {
-        "copyright": "© 2025 Carlos Garzón López. Tots els drets reservats.",
+        "copyright": "© 2026 Carlos Garzón López. Tots els drets reservats.",
         "builtWith": "Construït amb"
     },
     "aria": {

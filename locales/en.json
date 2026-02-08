@@ -26,37 +26,37 @@
     "about": {
         "title": "About Me",
         "subtitle": "A developer in constant evolution",
-        "bio": "I got into programming drawn by the freedom to work from anywhere. Over time, I discovered something more valuable: the ability to turn an idea into something real. I'm not just talking about writing code — I'm talking about sitting down with you, understanding what you need, and building something that actually works in your day-to-day. Turning a client's concern into a tool they use every morning is what makes me love this work.",
+        "bio": "I chose programming driven by the curiosity that the possibilities of this world sparked in me. Over time, I discovered something that captivated me about this field: it allowed me to create and materialize any conceivable idea. The ability to turn an idea into something tangible. I'm not just talking about writing code — I'm talking about sitting down and chatting with you, understanding what you need, and building something that actually works in your day-to-day. Being able to transform a client's concern into a daily-use tool is one of the things that makes me enjoy this work the most.",
         "values": {
             "title": "Values",
             "closeness": {
                 "title": "Closeness",
-                "description": "I'm involved from start to finish. I don't vanish after a quote."
+                "description": "I build, you decide. Transparency, feedback, and collaboration throughout the entire process."
             },
             "honesty": {
                 "title": "Honesty",
-                "description": "If something's not viable, I'll tell you early. No surprises."
+                "description": "If something's not viable, I communicate it upfront. My priority is delivering a product optimized for the business context."
             },
             "clarity": {
                 "title": "Clarity",
-                "description": "I explain everything without jargon. Your project, your decisions."
+                "description": "Direct and approachable communication. Always available to clarify doubts and questions."
             },
             "robustness": {
                 "title": "Robustness",
-                "description": "I analyze before I build. Nothing left to chance."
+                "description": "I analyze before I build. The pros, cons, and impact behind every decision are evaluated."
             },
             "scalability": {
                 "title": "Future vision",
-                "description": "I build thinking about tomorrow, not just today."
+                "description": "I build thinking about tomorrow. My goal: that my product drives your business. If the business scales, the product scales accordingly."
             },
             "commitment": {
                 "title": "Commitment",
-                "description": "Your project is my project. I pour into every detail."
+                "description": "Your project is my project. During its creation, we are a team!"
             }
         },
         "hobbies": {
             "title": "Outside of code",
-            "description": "I play the violin, play padel weekly, and work out several times a week. My next pursuit: boxing."
+            "description": "I consider myself a curious and restless person by nature. I enjoy having open fronts in my life that challenge and push me. That's why sports have always played an important part in my growth. I currently train at the gym and play padel every week — I like to stay active both mentally and physically. I've been playing the violin since primary school and it's an activity that still brings me a lot to this day."
         },
         "languages": {
             "title": "Languages",
@@ -75,7 +75,7 @@
         "deploying": "Pre-launch",
         "arynstal": {
             "title": "Arynstal CRM",
-            "description": "Lead management system in production for an installation company. Includes secure contact form, admin panel with audit trail, automatic notifications, and GDPR compliance.",
+            "description": "Lead management system in production for an installation and renovation company. Includes secure contact form, admin panel with audit trail, automatic notifications, and GDPR compliance.",
             "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
         },
         "portfolio": {
@@ -84,12 +84,12 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "Pointer (mobile app)",
-            "description": "Android application developed as final degree project. Format: Quiz app. CRUD management of user profile and completed games. Extra features: news forum and resources.",
-            "stack": "Java, Android Studio, PostgreSQL"
+            "title": "Sports Management App",
+            "description": "Android application developed as a final degree project. Management of teams, players, and matches with local database.",
+            "stack": "Kotlin, Android Studio, SQLite"
         },
         "testimonial": {
-            "quote": "Carlos understood our needs from day one and delivered a system we use daily. Professional and approachable.",
+            "quote": "From the very first moment, collaborating on the product creation was very straightforward. Carlos understood the needs and the business vision. We are very grateful for the tool he is building for the company.",
             "author": "Arynstal SL"
         }
     },
@@ -101,7 +101,7 @@
         "backend": "Backend",
         "tools": "Tools",
         "methodologies": "Methodologies",
-        "methodologiesDesc": "I work following principles of"
+        "methodologiesDesc": "Work methodologies"
     },
     "education": {
         "title": "Education",
@@ -120,40 +120,40 @@
     },
     "process": {
         "title": "How I Work",
-        "subtitle": "What working with me looks like",
+        "subtitle": "My work phases",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Understand",
-                "description": "Before touching anything, I sit down with you. I listen to what you need, ask about what's unclear, and make sure I understand the root problem."
+                "description": "The first step to creating the product is understanding you. I listen to what you need, ask about what's unclear, and make sure I understand the root problem."
             },
             "plan": {
                 "number": "02",
                 "title": "Plan",
-                "description": "With everything clear, I lay out a concrete plan: what will be done, in what order, and what you'll receive at each stage. No surprises, no fine print."
+                "description": "With all the information laid out and clear, I draw up a concrete plan: what will be done, in what order, and what you'll receive at each stage. No surprises, no fine print."
             },
             "develop": {
                 "number": "03",
                 "title": "Develop",
-                "description": "I build step by step, showing you real progress so you can share your feedback along the way. No waiting months to see a result."
+                "description": "Materialization of the concept created in the first phases: I build the code step by step, showing you real progress so you can share your feedback along the way. The project evolves and you observe its progress."
             },
             "deliver": {
                 "number": "04",
                 "title": "Deliver",
-                "description": "I don't just hand you a product and walk away. I deliver everything documented, explain how it works, and stay available for whatever you need after."
+                "description": "My priority is delivering a tool you can actually use. I hand over a project with the documentation and manuals needed for its operation. Always available for you from the moment I deliver the product onwards."
             }
         }
     },
     "contact": {
         "title": "Contact",
-        "subtitle": "Have a project in mind?",
+        "subtitle": "Have an idea you want to create?",
         "cta": "Let's talk",
         "description": "I'm available for freelance projects, collaborations, or full-time positions. If you have an idea or need help with your project, reach out.",
         "email": "Send email",
         "availability": "Available: On-site · Hybrid · Remote"
     },
     "footer": {
-        "copyright": "© 2025 Carlos Garzón López. All rights reserved.",
+        "copyright": "© 2026 Carlos Garzón López. All rights reserved.",
         "builtWith": "Built with"
     },
     "aria": {
