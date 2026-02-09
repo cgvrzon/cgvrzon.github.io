@@ -1,0 +1,29 @@
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+    background-color: var(--color-bg-secondary);
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-8) var(--space-6);
+}
+
+.footer__container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__copyright {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-2);
+}
+
+.footer__built {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__heart {
+    color: var(--color-accent-warm);
+}

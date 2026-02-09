@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Carlos Garzón López - Junior Full-Stack Developer. Desarrollo web claro, sólido y preparado para crecer.">
     <meta name="author" content="Carlos Garzón López (cgvrzon)">
-    
+    <meta name="theme-color" content="#0a0a0b">
+    <link rel="canonical" href="https://cgvrzon.github.io/">
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Carlos Garzón López | Junior Full-Stack Developer">
@@ -24,6 +26,15 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FOUC prevention: apply saved theme before first paint -->
+    <script>
+        (function() {
+            var t = localStorage.getItem('portfolio_theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+        })();
+    </script>
 </head>
 <body>
     <!-- ============================================
@@ -31,32 +42,49 @@
          Author: Carlos Garzón López (cgvrzon)
          ============================================ -->
     <header class="hero" role="banner">
-        <!-- Language Selector -->
-        <nav class="lang-selector" aria-label="Selector de idioma">
-            <button 
-                type="button" 
-                class="lang-btn active" 
-                data-lang="es" 
-                aria-pressed="true"
-                aria-label="Español"
-            >ES</button>
-            <span class="lang-separator" aria-hidden="true">/</span>
-            <button 
-                type="button" 
-                class="lang-btn" 
-                data-lang="en" 
-                aria-pressed="false"
-                aria-label="English"
-            >EN</button>
-            <span class="lang-separator" aria-hidden="true">/</span>
-            <button 
-                type="button" 
-                class="lang-btn" 
-                data-lang="ca" 
-                aria-pressed="false"
-                aria-label="Català"
-            >CA</button>
-        </nav>
+        <!-- Header Controls: Language Selector + Theme Toggle -->
+        <div class="header-controls">
+            <nav class="lang-selector" aria-label="Selector de idioma">
+                <button
+                    type="button"
+                    class="lang-btn active"
+                    data-lang="es"
+                    aria-pressed="true"
+                    aria-label="Español"
+                >ES</button>
+                <span class="lang-separator" aria-hidden="true">/</span>
+                <button
+                    type="button"
+                    class="lang-btn"
+                    data-lang="en"
+                    aria-pressed="false"
+                    aria-label="English"
+                >EN</button>
+                <span class="lang-separator" aria-hidden="true">/</span>
+                <button
+                    type="button"
+                    class="lang-btn"
+                    data-lang="ca"
+                    aria-pressed="false"
+                    aria-label="Català"
+                >CA</button>
+            </nav>
+            <button
+                type="button"
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Cambiar tema"
+                data-i18n-attr="aria-label"
+                data-i18n="aria.themeToggle"
+            >
+                <svg class="theme-toggle__icon--sun" width="20" height="20" aria-hidden="true">
+                    <use href="assets/icons/sprite.svg#icon-sun"/>
+                </svg>
+                <svg class="theme-toggle__icon--moon" width="20" height="20" aria-hidden="true">
+                    <use href="assets/icons/sprite.svg#icon-moon"/>
+                </svg>
+            </button>
+        </div>
 
         <div class="hero__content">
             <!-- Profile Image -->
@@ -617,15 +645,15 @@
                     </div>
 
                     <!-- Methodologies -->
-                    <div class="stack__methodologies">
-                        <p class="stack__methodologies-text">
-                            <span data-i18n="stack.methodologiesDesc">Metodologías de trabajo</span>
-                            <span class="stack__methodology-tags">
-                                <span class="stack-tag stack-tag--methodology">Agile</span>
-                                <span class="stack-tag stack-tag--methodology">Scrum</span>
-                                <span class="stack-tag stack-tag--methodology">Lean Startup</span>
-                            </span>
-                        </p>
+                    <div class="stack__block stack__block--methodologies">
+                        <h3 class="stack__block-title" data-i18n="stack.methodologiesDesc">
+                            Metodologías de trabajo
+                        </h3>
+                        <div class="stack__methodology-tags">
+                            <span class="stack-tag stack-tag--methodology">Agile</span>
+                            <span class="stack-tag stack-tag--methodology">Scrum</span>
+                            <span class="stack-tag stack-tag--methodology">Lean Startup</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -719,6 +747,7 @@
         </div>
     </footer>
 
+    <script src="js/theme.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/values-carousel.js"></script>
     <script src="js/main.js"></script>

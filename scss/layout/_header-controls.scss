@@ -1,0 +1,56 @@
+/* ============================================
+   HEADER CONTROLS (Lang selector + Theme toggle)
+   ============================================ */
+.header-controls {
+    position: absolute;
+    top: var(--space-6);
+    right: var(--space-6);
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    z-index: 10;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-md);
+    color: var(--color-text-muted);
+    transition:
+        color var(--transition-fast),
+        background-color var(--transition-fast);
+}
+
+.theme-toggle:hover {
+    color: var(--color-text-secondary);
+    background-color: var(--color-bg-elevated);
+}
+
+/* Icon visibility: show moon in dark, sun in light */
+.theme-toggle__icon--sun {
+    display: none;
+}
+
+.theme-toggle__icon--moon {
+    display: block;
+}
+
+[data-theme="light"] .theme-toggle__icon--sun {
+    display: block;
+}
+
+[data-theme="light"] .theme-toggle__icon--moon {
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .header-controls {
+        top: var(--space-4);
+        right: var(--space-4);
+        gap: var(--space-2);
+    }
+}

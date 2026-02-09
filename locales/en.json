@@ -162,6 +162,7 @@
         "langSelector": "Language selector",
         "mainNav": "Main navigation",
         "socialLinks": "Contact and social links",
-        "skipToContent": "Skip to main content"
+        "skipToContent": "Skip to main content",
+        "themeToggle": "Toggle theme"
     }
 }

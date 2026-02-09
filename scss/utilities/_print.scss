@@ -1,0 +1,20 @@
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+    .hero {
+        min-height: auto;
+        padding: var(--space-8);
+        background: white;
+        color: black;
+    }
+
+    .header-controls,
+    .hero__decoration {
+        display: none;
+    }
+
+    .cta-link {
+        border: 1px solid #ccc;
+    }
+}

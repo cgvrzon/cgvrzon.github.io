@@ -162,6 +162,7 @@
         "langSelector": "Selector d'idioma",
         "mainNav": "Navegació principal",
         "socialLinks": "Enllaços de contacte i xarxes",
-        "skipToContent": "Saltar al contingut principal"
+        "skipToContent": "Saltar al contingut principal",
+        "themeToggle": "Canviar tema"
     }
 }

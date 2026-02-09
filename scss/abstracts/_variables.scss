@@ -1,0 +1,139 @@
+/**
+ * Portfolio - Carlos Garzón López (cgvrzon)
+ *
+ * Design System & Styles
+ * Aesthetic: Technical, clean, professional with subtle warmth
+ */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES
+   ============================================ */
+:root {
+    /* Color Palette - Dark theme with warm accents */
+    --color-bg-primary: #0a0a0b;
+    --color-bg-secondary: #111113;
+    --color-bg-elevated: #18181b;
+
+    --color-text-primary: #fafafa;
+    --color-text-secondary: #a1a1aa;
+    --color-text-muted: #71717a;
+
+    /* Cgvrzon's brand colors */
+    --color-accent-primary: #2ecc71;    /* Green - growth, energy */
+    --color-accent-secondary: #1f3a5f;  /* Navy - trust, depth */
+    --color-accent-warm: #c0392b;       /* Red - passion, emphasis */
+
+    --color-border: #27272a;
+    --color-border-hover: #3f3f46;
+
+    /* Theme-aware accent variants */
+    --color-accent-primary-text: var(--color-accent-primary);
+    --color-text-on-accent: #ffffff;
+    --color-accent-primary-hover: #3ddf82;
+
+    /* Alpha overlays */
+    --color-accent-primary-a08: rgba(46, 204, 113, 0.08);
+    --color-accent-primary-a10: rgba(46, 204, 113, 0.1);
+    --color-accent-primary-a12: rgba(46, 204, 113, 0.12);
+    --color-accent-primary-a15: rgba(46, 204, 113, 0.15);
+    --color-accent-primary-a25: rgba(46, 204, 113, 0.25);
+    --color-accent-primary-a40: rgba(46, 204, 113, 0.4);
+    --color-accent-secondary-a15: rgba(31, 58, 95, 0.15);
+    --color-accent-secondary-a20: rgba(31, 58, 95, 0.2);
+    --color-accent-secondary-a40: rgba(31, 58, 95, 0.4);
+
+    /* Gradients */
+    --gradient-accent: linear-gradient(135deg, var(--color-accent-secondary) 0%, var(--color-accent-primary) 100%);
+    --gradient-subtle: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+
+    /* Typography */
+    --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    --text-xs: 0.75rem;     /* 12px */
+    --text-sm: 0.875rem;    /* 14px */
+    --text-base: 1rem;      /* 16px */
+    --text-lg: 1.125rem;    /* 18px */
+    --text-xl: 1.25rem;     /* 20px */
+    --text-2xl: 1.5rem;     /* 24px */
+    --text-3xl: 1.875rem;   /* 30px */
+    --text-4xl: 2.25rem;    /* 36px */
+    --text-5xl: 3rem;       /* 48px */
+
+    --leading-tight: 1.2;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.7;
+
+    --tracking-tight: -0.02em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.05em;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+
+    /* Effects */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-glow: 0 0 20px -5px var(--color-accent-primary);
+
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+}
+
+/* ============================================
+   LIGHT THEME OVERRIDES
+   ============================================ */
+[data-theme="light"] {
+    --color-bg-primary: #fafafa;
+    --color-bg-secondary: #f4f4f5;
+    --color-bg-elevated: #ffffff;
+    --color-text-primary: #18181b;
+    --color-text-secondary: #52525b;
+    --color-text-muted: #71717a;
+    --color-border: #e4e4e7;
+    --color-border-hover: #a1a1aa;
+
+    --color-accent-primary-text: #178344;
+    --color-accent-primary-hover: #22a855;
+
+    --gradient-accent: linear-gradient(135deg, var(--color-accent-secondary) 0%, #178344 100%);
+    --gradient-subtle: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+
+    --color-accent-primary-a08: rgba(46, 204, 113, 0.06);
+    --color-accent-primary-a10: rgba(46, 204, 113, 0.08);
+    --color-accent-primary-a12: rgba(46, 204, 113, 0.10);
+    --color-accent-primary-a15: rgba(46, 204, 113, 0.10);
+    --color-accent-primary-a25: rgba(46, 204, 113, 0.18);
+    --color-accent-primary-a40: rgba(46, 204, 113, 0.25);
+    --color-accent-secondary-a15: rgba(31, 58, 95, 0.08);
+    --color-accent-secondary-a20: rgba(31, 58, 95, 0.10);
+    --color-accent-secondary-a40: rgba(31, 58, 95, 0.20);
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.04);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.06), 0 2px 4px -2px rgb(0 0 0 / 0.04);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.06), 0 4px 6px -4px rgb(0 0 0 / 0.04);
+    --shadow-glow: 0 0 20px -5px rgba(46, 204, 113, 0.3);
+}
+
+[data-theme="light"] :focus-visible {
+    outline-color: var(--color-accent-primary-text);
+}

@@ -1,0 +1,175 @@
+/* ============================================
+   STACK SECTION
+   ============================================ */
+.section__container--wide {
+    max-width: 1100px;
+}
+
+.stack__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-10);
+}
+
+/* Stack Blocks (Current / Learning) */
+.stack__block {
+    background-color: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+}
+
+.stack__block--learning {
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.stack__block-title {
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-6);
+    text-align: center;
+}
+
+.stack__block-title::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--gradient-accent);
+    border-radius: var(--radius-full);
+    margin-right: var(--space-3);
+    vertical-align: middle;
+}
+
+.stack__block--learning .stack__block-title::before {
+    background: var(--color-text-muted);
+}
+
+/* Categories Grid */
+.stack__categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-8);
+}
+
+.stack__category {
+    text-align: center;
+}
+
+.stack__category-title {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
+    margin-bottom: var(--space-4);
+}
+
+/* Tech Icons Grid */
+.stack__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+}
+
+.tech-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    min-width: 80px;
+    transition:
+        border-color var(--transition-fast),
+        transform var(--transition-fast),
+        box-shadow var(--transition-fast);
+}
+
+.tech-icon:hover {
+    border-color: var(--color-accent-primary);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow);
+}
+
+.tech-icon__svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--color-text-secondary);
+    transition:
+        fill var(--transition-fast),
+        filter var(--transition-base),
+        transform var(--transition-base);
+}
+
+.tech-icon:hover .tech-icon__svg {
+    fill: var(--color-accent-primary);
+    filter: drop-shadow(0 0 8px var(--color-accent-primary-a40));
+    transform: scale(1.1) rotate(3deg);
+}
+
+.tech-icon__name {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-align: center;
+}
+
+/* Learning icons */
+.tech-icon--learning {
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.tech-icon--learning:hover {
+    border-color: var(--color-accent-primary);
+    opacity: 0.7;
+}
+
+.tech-icon--learning:hover .tech-icon__svg {
+    fill: var(--color-accent-primary);
+    opacity: 0.7;
+}
+
+/* Fallback text tags for methodologies */
+.stack-tag {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-md);
+}
+
+/* Methodologies */
+.stack__block--methodologies {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.stack__methodology-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2);
+}
+
+.stack-tag--methodology {
+    background: var(--gradient-accent);
+    border: none;
+    color: var(--color-text-on-accent);
+    font-size: var(--text-xs);
+}
+
+.stack-tag--methodology:hover {
+    color: var(--color-text-on-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}

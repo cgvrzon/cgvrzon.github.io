@@ -1,0 +1,25 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing my work as a Junior Full-Stack Developer.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass scss/main.scss css/styles.css --style=expanded --no-source-map",
+    "watch:css": "sass scss/main.scss css/styles.css --style=expanded --no-source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgvrzon/cgvrzon.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cgvrzon/cgvrzon.github.io/issues"
+  },
+  "homepage": "https://github.com/cgvrzon/cgvrzon.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}

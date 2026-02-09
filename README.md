@@ -4,41 +4,52 @@ Personal portfolio website showcasing my work as a Junior Full-Stack Developer.
 
 ## Live Site
 
-🔗 [cgvrzon.github.io](https://cgvrzon.github.io)
+[cgvrzon.github.io](https://cgvrzon.github.io)
 
 ## Tech Stack
 
 - **HTML5** - Semantic markup with accessibility in mind
-- **CSS3** - Custom properties, Flexbox, Grid
-- **JavaScript** - Vanilla ES6+, i18n system
+- **CSS3** - Custom properties, Flexbox, Grid, animations
+- **JavaScript** - Vanilla ES6+, modular architecture
 - **Hosting** - GitHub Pages
 
 ## Features
 
 - Responsive design (mobile-first)
-- Multi-language support (ES/EN/CA)
-- Dark mode ready
+- Multi-language support (ES/EN/CA) with dynamic i18n system
+- SVG sprite system for optimized icon loading
+- Ferris wheel values animation (circular card carousel)
+- CV download button with language-aware PDF
 - Accessibility optimized (WCAG 2.1)
-- SEO optimized
+- SEO optimized (Open Graph, sitemap, robots.txt)
+
+## Projects
+
+- **Pointer App** - Mobile-first web application (React + TypeScript)
 
 ## Structure
 
 ```
-├── index.html          # Main page
+├── index.html              # Main page
 ├── css/
-│   └── styles.css      # Styles
+│   └── styles.css          # Styles (custom properties, animations)
 ├── js/
-│   ├── main.js         # Main scripts
-│   └── i18n.js         # Internationalization
-├── locales/            # Translation files
+│   ├── main.js             # Main scripts
+│   ├── i18n.js             # Internationalization engine
+│   └── values-carousel.js  # Ferris wheel values animation
+├── locales/                # Translation files
 │   ├── es.json
 │   ├── en.json
 │   └── ca.json
-└── assets/
-    ├── img/            # Images
-    ├── icons/          # Favicons
-    ├── docs/           # CV, documents
-    └── fonts/          # Local fonts
+├── assets/
+│   ├── img/                # Images (WebP, AVIF, PNG)
+│   ├── icons/              # Favicons + SVG sprite
+│   │   └── sprite.svg      # Consolidated SVG icon sprite
+│   ├── docs/               # CV, documents
+│   └── fonts/              # Local fonts
+├── sitemap.xml             # SEO sitemap
+├── robots.txt              # Crawler directives
+└── CNAME                   # Custom domain config
 ```
 
 ## Author
