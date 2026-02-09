@@ -12,7 +12,8 @@
         "cta": {
             "github": "GitHub",
             "linkedin": "LinkedIn",
-            "email": "Email"
+            "email": "Email",
+            "downloadCV": "Descarregar CV"
         }
     },
     "nav": {
@@ -35,23 +36,23 @@
             },
             "honesty": {
                 "title": "Honestedat",
-                "description": "Si quelcom no és viable, ho comunico d'entrada. La meva màxima és lliurar un producte optimitzat per al context del negoci."
+                "description": "Sempre clar i sincer quant a les possibilitats i el desenvolupament del producte."
             },
             "clarity": {
                 "title": "Claredat",
-                "description": "Comunicació directa i propera. Sempre disposat per aclarir dubtes i preguntes."
+                "description": "Comunicació directa i propera. Sempre disponible per al contacte."
             },
             "robustness": {
                 "title": "Robustesa",
-                "description": "Analitzo abans de construir. S'analitzen i s'avaluen els pros, els contres i l'impacte darrere de cada decisió."
+                "description": "Analitzo abans de construir. Avaluo pros, contres i impacte darrere de cada decisió."
             },
             "scalability": {
                 "title": "Visió de futur",
-                "description": "Construeixo pensant en el demà. El meu objectiu: que el meu producte impulsi el teu negoci. Si el negoci escala, el producte escala d'acord."
+                "description": "Construeixo pensant en el demà. Si el negoci escala, el producte també."
             },
             "commitment": {
                 "title": "Compromís",
-                "description": "El teu projecte és el meu projecte. Durant la seva creació som un equip!"
+                "description": "El teu projecte és el meu projecte. Som un equip!"
             }
         },
         "hobbies": {
@@ -84,9 +85,9 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "App Gestió Esportiva",
-            "description": "Aplicació Android desenvolupada com a projecte final de FP. Gestió d'equips, jugadors i partits amb base de dades local.",
-            "stack": "Kotlin, Android Studio, SQLite"
+            "title": "Pointer App",
+            "description": "Aplicació Android de tests i qüestionaris amb registre de partides per usuari. Backend REST en Java Maven (Apache NetBeans) connectat a PostgreSQL per a la gestió CRUD completa. Inclou fòrum de notícies i recursos multimèdia integrat amb l'API de YouTube.",
+            "stack": "Java, Android Studio, PostgreSQL, Apache NetBeans"
         },
         "testimonial": {
             "quote": "Des del primer moment col·laborar per a la creació del producte va ser molt senzill. Carlos va entendre les necessitats i la visió del negoci. Estem molt agraïts amb l'eina que està construint per a l'empresa.",
@@ -150,6 +151,7 @@
         "cta": "Parlem",
         "description": "Estic disponible per a projectes freelance, col·laboracions o posicions a temps complet. Si tens una idea o necessites ajuda amb el teu projecte, escriu-me.",
         "email": "Enviar email",
+        "downloadCV": "Descarrega el meu curriculum per saber més de mi",
         "availability": "Disponible: Presencial · Híbrid · Remot"
     },
     "footer": {

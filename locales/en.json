@@ -12,7 +12,8 @@
         "cta": {
             "github": "GitHub",
             "linkedin": "LinkedIn",
-            "email": "Email"
+            "email": "Email",
+            "downloadCV": "Download CV"
         }
     },
     "nav": {
@@ -35,23 +36,23 @@
             },
             "honesty": {
                 "title": "Honesty",
-                "description": "If something's not viable, I communicate it upfront. My priority is delivering a product optimized for the business context."
+                "description": "Always clear and honest about the possibilities and development of the product."
             },
             "clarity": {
                 "title": "Clarity",
-                "description": "Direct and approachable communication. Always available to clarify doubts and questions."
+                "description": "Direct and approachable communication. Always available for contact."
             },
             "robustness": {
                 "title": "Robustness",
-                "description": "I analyze before I build. The pros, cons, and impact behind every decision are evaluated."
+                "description": "I analyze before I build. I evaluate the pros, cons, and impact behind every decision."
             },
             "scalability": {
                 "title": "Future vision",
-                "description": "I build thinking about tomorrow. My goal: that my product drives your business. If the business scales, the product scales accordingly."
+                "description": "I build thinking about tomorrow. If the business scales, the product scales too."
             },
             "commitment": {
                 "title": "Commitment",
-                "description": "Your project is my project. During its creation, we are a team!"
+                "description": "Your project is my project. We are a team!"
             }
         },
         "hobbies": {
@@ -84,9 +85,9 @@
             "stack": "HTML5, CSS3, JavaScript, Vite"
         },
         "appfp": {
-            "title": "Sports Management App",
-            "description": "Android application developed as a final degree project. Management of teams, players, and matches with local database.",
-            "stack": "Kotlin, Android Studio, SQLite"
+            "title": "Pointer App",
+            "description": "Android quiz and test application with per-user game tracking. REST backend built with Java Maven (Apache NetBeans) connected to PostgreSQL for full CRUD management. Includes a news and multimedia resource forum integrated with the YouTube API.",
+            "stack": "Java, Android Studio, PostgreSQL, Apache NetBeans"
         },
         "testimonial": {
             "quote": "From the very first moment, collaborating on the product creation was very straightforward. Carlos understood the needs and the business vision. We are very grateful for the tool he is building for the company.",
@@ -150,6 +151,7 @@
         "cta": "Let's talk",
         "description": "I'm available for freelance projects, collaborations, or full-time positions. If you have an idea or need help with your project, reach out.",
         "email": "Send email",
+        "downloadCV": "Download my resume to learn more about me",
         "availability": "Available: On-site · Hybrid · Remote"
     },
     "footer": {
