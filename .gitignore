@@ -4,8 +4,9 @@ Thumbs.db
 Desktop.ini
 nul
 
-# IDE / Editor
+# IDE / Editor / AI
 .vscode/
+.claude/
 .idea/
 *.swp
 *.swo
