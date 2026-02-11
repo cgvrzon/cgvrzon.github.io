@@ -33,6 +33,16 @@
     color: var(--color-text-muted);
 }
 
+/* Light mode — card elevation shadows */
+[data-theme="light"] .value-card,
+[data-theme="light"] .project-card,
+[data-theme="light"] .process-step,
+[data-theme="light"] .education-item,
+[data-theme="light"] .testimonial,
+[data-theme="light"] .stack__block:not(.stack__block--learning):not(.stack__block--methodologies) {
+    box-shadow: var(--shadow-sm);
+}
+
 /* Section title accent line */
 .section__title::after {
     content: '';

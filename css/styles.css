@@ -89,31 +89,38 @@
    LIGHT THEME OVERRIDES
    ============================================ */
 [data-theme=light] {
-  --color-bg-primary: #fafafa;
-  --color-bg-secondary: #f4f4f5;
-  --color-bg-elevated: #ffffff;
-  --color-text-primary: #18181b;
-  --color-text-secondary: #52525b;
-  --color-text-muted: #71717a;
-  --color-border: #e4e4e7;
-  --color-border-hover: #a1a1aa;
+  /* Backgrounds — warm ivory, easy on the eyes */
+  --color-bg-primary: #f2ede8; /* Ivory — ~hsl(28, 22%, 93%) */
+  --color-bg-secondary: #eae4de; /* Deeper ivory — ~hsl(28, 20%, 90%) */
+  --color-bg-elevated: #f8f5f1; /* Cream white — ~hsl(30, 28%, 96%) */
+  /* Text — warm neutrals */
+  --color-text-primary: #1c1a17;
+  --color-text-secondary: #4d4a44;
+  --color-text-muted: #7a756e;
+  /* Borders — warm-tinted */
+  --color-border: #d8d2ca;
+  --color-border-hover: #a8a098;
+  /* Accent text */
   --color-accent-primary-text: #178344;
   --color-accent-primary-hover: #22a855;
+  /* Gradients */
   --gradient-accent: linear-gradient(135deg, var(--color-accent-secondary) 0%, #178344 100%);
   --gradient-subtle: linear-gradient(180deg, var(--color-bg-secondary) 0%, var(--color-bg-primary) 100%);
+  /* Alpha overlays */
   --color-accent-primary-a08: rgba(46, 204, 113, 0.06);
   --color-accent-primary-a10: rgba(46, 204, 113, 0.08);
   --color-accent-primary-a12: rgba(46, 204, 113, 0.10);
-  --color-accent-primary-a15: rgba(46, 204, 113, 0.10);
+  --color-accent-primary-a15: rgba(46, 204, 113, 0.12);
   --color-accent-primary-a25: rgba(46, 204, 113, 0.18);
   --color-accent-primary-a40: rgba(46, 204, 113, 0.25);
   --color-accent-secondary-a15: rgba(31, 58, 95, 0.08);
   --color-accent-secondary-a20: rgba(31, 58, 95, 0.10);
   --color-accent-secondary-a40: rgba(31, 58, 95, 0.20);
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.04);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.06), 0 2px 4px -2px rgb(0 0 0 / 0.04);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.06), 0 4px 6px -4px rgb(0 0 0 / 0.04);
-  --shadow-glow: 0 0 20px -5px rgba(46, 204, 113, 0.3);
+  /* Shadows — warm-tinted */
+  --shadow-sm: 0 1px 3px 0 rgba(60, 50, 40, 0.07), 0 1px 2px 0 rgba(60, 50, 40, 0.04);
+  --shadow-md: 0 4px 8px -1px rgba(60, 50, 40, 0.09), 0 2px 4px -2px rgba(60, 50, 40, 0.05);
+  --shadow-lg: 0 12px 20px -4px rgba(60, 50, 40, 0.11), 0 4px 8px -4px rgba(60, 50, 40, 0.06);
+  --shadow-glow: 0 0 24px -4px rgba(46, 204, 113, 0.30);
 }
 
 [data-theme=light] :focus-visible {
@@ -224,6 +231,16 @@ button {
 .section__subtitle {
   font-size: var(--text-lg);
   color: var(--color-text-muted);
+}
+
+/* Light mode — card elevation shadows */
+[data-theme=light] .value-card,
+[data-theme=light] .project-card,
+[data-theme=light] .process-step,
+[data-theme=light] .education-item,
+[data-theme=light] .testimonial,
+[data-theme=light] .stack__block:not(.stack__block--learning):not(.stack__block--methodologies) {
+  box-shadow: var(--shadow-sm);
 }
 
 /* Section title accent line */
@@ -431,6 +448,13 @@ button {
 }
 
 /* ============================================
+   LIGHT MODE OVERRIDES
+   ============================================ */
+[data-theme=light] .hero__image {
+  box-shadow: 0 4px 12px -2px rgba(60, 50, 40, 0.1);
+}
+
+/* ============================================
    RESPONSIVE DESIGN (Mobile First)
    ============================================ */
 /* Small devices (landscape phones, 576px and up) */
@@ -561,6 +585,12 @@ button {
 
 .footer__heart {
   color: var(--color-accent-warm);
+}
+
+/* Light mode — slightly deeper ivory to ground the page */
+[data-theme=light] .footer {
+  background-color: #e3ddd6; /* ~hsl(28, 18%, 87%) */
+  border-top-color: #d0c9c0;
 }
 
 /* Language Selector */
