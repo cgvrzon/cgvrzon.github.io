@@ -97,7 +97,10 @@
     "stack": {
         "title": "Tech Stack",
         "current": "Currently working with",
-        "learning": "Learning",
+        "knowledge": "My experience",
+        "advanced": "Advanced",
+        "basic": "Basic knowledge",
+        "future": "Future stack",
         "frontend": "Frontend",
         "backend": "Backend",
         "tools": "Tools",

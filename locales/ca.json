@@ -97,7 +97,10 @@
     "stack": {
         "title": "Stack Tecnològic",
         "current": "Treballo actualment",
-        "learning": "En aprenentatge",
+        "knowledge": "La meva experiència",
+        "advanced": "Alt nivell",
+        "basic": "Coneixement bàsic",
+        "future": "Futur stack",
         "frontend": "Frontend",
         "backend": "Backend",
         "tools": "Eines",

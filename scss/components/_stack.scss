@@ -19,7 +19,8 @@
     padding: var(--space-8);
 }
 
-.stack__block--learning {
+.stack__block--learning,
+.stack__block--knowledge {
     border-style: dashed;
     background-color: transparent;
 }
@@ -43,8 +44,33 @@
     vertical-align: middle;
 }
 
-.stack__block--learning .stack__block-title::before {
+.stack__block--learning .stack__block-title::before,
+.stack__block--knowledge .stack__block-title::before {
     background: var(--color-text-muted);
+}
+
+/* Sub-blocks within knowledge block */
+.stack__sub-block {
+    padding-top: var(--space-6);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.stack__sub-block:first-child {
+    padding-top: 0;
+}
+
+.stack__sub-block:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.stack__sub-block-title {
+    font-size: var(--text-base);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-4);
+    text-align: center;
 }
 
 /* Categories Grid */
