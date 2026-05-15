@@ -2,12 +2,12 @@
     "meta": {
         "lang": "ca",
         "langName": "Català",
-        "description": "Carlos Garzón López - Junior Full-Stack Developer. Desenvolupament web clar, sòlid i preparat per créixer.",
+        "description": "Carlos Garzón López — Junior Full-Stack Developer. Desenvolupament web i mòbil clar, sòlid i preparat per créixer.",
         "title": "Carlos Garzón López | Junior Full-Stack Developer"
     },
     "hero": {
         "role": "Junior Full-Stack Developer",
-        "tagline": "De la idea al sistema: desenvolupament web clar, sòlid i preparat per créixer.",
+        "tagline": "De la idea al sistema: desenvolupament web i mòbil clar, sòlid i preparat per créixer.",
         "availability": "Disponible: Presencial · Híbrid · Remot",
         "cta": {
             "github": "GitHub",
@@ -27,37 +27,33 @@
     "about": {
         "title": "Sobre mi",
         "subtitle": "Desenvolupador en constant evolució",
-        "bio": "Vaig escollir la programació mogut per la curiositat que despertaven en mi les possibilitats que aquest món oferia. Amb el temps vaig descobrir quelcom que em va captivar d'aquest camp: permetia crear i materialitzar qualsevol idea concebible. La capacitat de convertir una idea en quelcom tangible. No parlo només d'escriure codi — parlo de seure i xerrar amb tu, entendre què necessites i construir quelcom que de veritat funcioni en el teu dia a dia. Poder transformar la inquietud d'un client en una eina d'ús diari és un dels motius que més em fa gaudir d'aquesta feina.",
+        "bio": "Vaig escollir la programació mogut per la curiositat que despertaven en mi les possibilitats que aquest món oferia. Amb el temps vaig descobrir quelcom que em va captivar: la capacitat de convertir una idea en quelcom tangible. No parlo només d'escriure codi — parlo de seure i xerrar amb tu, entendre què necessites i construir quelcom que de veritat funcioni en el teu dia a dia. Transformar la inquietud d'un client en una eina d'ús diari és un dels motius que més em fa gaudir d'aquesta feina.",
         "values": {
             "title": "Valors",
-            "closeness": {
-                "title": "Proximitat",
-                "description": "Jo construeixo, tu decideixes. Transparència, feedback i col·laboració durant tot el procés."
+            "commitment": {
+                "title": "Compromís",
+                "description": "Tracto els projectes en què entro com si fossin meus. Si m'importa el que construeixo, el resultat es nota."
+            },
+            "communication": {
+                "title": "Comunicació",
+                "description": "Amb mi la conversa és fluida, efectiva i còmoda. Les decisions tècniques no s'amaguen darrere de gerga: el que decideixo, ho explico."
             },
             "honesty": {
                 "title": "Honestedat",
-                "description": "Sempre clar i sincer quant a les possibilitats i el desenvolupament del producte."
-            },
-            "clarity": {
-                "title": "Claredat",
-                "description": "Comunicació directa i propera. Sempre disponible per al contacte."
+                "description": "Si no sé alguna cosa, ho dic i ho aprenc. Si una solució té riscos, els nomeno abans no apareguin."
             },
             "robustness": {
-                "title": "Robustesa",
-                "description": "Analitzo abans de construir. Avaluo pros, contres i impacte darrere de cada decisió."
+                "title": "Robustesa abans que velocitat",
+                "description": "Prefereixo un canvi petit ben fet a un lliurament ràpid que hereti deute. Construir bé avui és estalviar refactor demà."
             },
-            "scalability": {
-                "title": "Visió de futur",
-                "description": "Construeixo pensant en el demà. Si el negoci escala, el producte també."
-            },
-            "commitment": {
-                "title": "Compromís",
-                "description": "El teu projecte és el meu projecte. Som un equip!"
+            "productVision": {
+                "title": "Visió de producte",
+                "description": "El que construeixo l'usa algú — aquesta persona és la brúixola, no la moda tècnica del trimestre."
             }
         },
         "hobbies": {
             "title": "Fora del codi",
-            "description": "Em considero algú curiós i inquiet per norma general. Gaudeixo tenint fronts oberts a la meva vida que em retin i m'empentin. Per això l'esport sempre ha tingut una part important en el meu creixement. Actualment entreno al gimnàs i jugo a pàdel cada setmana, m'agrada mantenir-me actiu mental i físicament. Toco el violí des de primària i és una activitat que em segueix aportant molt a dia d'avui."
+            "description": "Curiós i inquiet per norma. Gaudeixo tenint fronts oberts a la meva vida que em retin. L'esport ha estat columna constant: vaig practicar taekwondo, vaig jugar a futbol i futbol sala, entreno al gimnàs des de fa anys i jugo a pàdel cada setmana des de fa un parell. Toco el violí des de primària i em segueix acompanyant. Cos i ment estiren del mateix carro: si en cuido un, l'altre respon."
         },
         "languages": {
             "title": "Idiomes",
@@ -74,20 +70,27 @@
         "featured": "Destacat",
         "learning": "Projecte formatiu",
         "deploying": "Pre-llançament",
+        "inProgress": "En construcció",
+        "private": "Projecte intern",
         "arynstal": {
-            "title": "Arynstal CRM",
-            "description": "Sistema de gestió de leads en producció per a empresa d'instal·lacions i reformes. Inclou formulari de contacte segur, panell admin amb auditoria, notificacions automàtiques i compliment RGPD.",
-            "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
+            "title": "Arynstal — Web corporativa i CRM",
+            "description": "Sistema complet per a una empresa d'instal·lacions: web corporativa, captació de leads, panell admin amb auditoria, RBAC per rol i notificacions automàtiques. Sistema desplegat i operant en entorn de producció. La publicació pública a arynstal.es està pendent del lliurament de la galeria de projectes per part del client.",
+            "stack": "Django 6, PostgreSQL, Tailwind CSS, Nginx, Gunicorn, Cloudflare"
+        },
+        "setlog": {
+            "title": "SetLog — App mòbil d'entrenament",
+            "description": "Aplicació nativa per registrar sessions de gimnàs sense perdre el flow. Sense login, sense compte cloud — pensada perquè el paper i el boli deixin de ser més còmodes que el mòbil. Construcció activa amb arquitectura neta: domini TypeScript pur, Feature-Sliced Design i persistència local-first.",
+            "stack": "Expo, React Native, TypeScript estricte, Zustand, Zod, NativeWind"
+        },
+        "vault": {
+            "title": "Vault Personal + Project Exocortex",
+            "description": "Sistema viu de gestió de coneixement tècnic i operatiu. Zettelkasten a Obsidian amb taxonomia pròpia + memòria persistent cross-sessió via MCP. Project Exocortex (en evolució): sistema RAG sobre el vault perquè el coneixement s'activi de forma semàntica en el moment en què és rellevant.",
+            "stack": "Obsidian, Markdown, MCP (Engram), arquitectura RAG en desenvolupament"
         },
         "portfolio": {
             "title": "Portfolio Personal",
             "description": "Aquest mateix lloc. Sistema i18n propi en JavaScript vanilla, disseny responsive, accessibilitat optimitzada i rendiment cuidat.",
             "stack": "HTML5, CSS3, JavaScript, Vite"
-        },
-        "appfp": {
-            "title": "Pointer App",
-            "description": "Aplicació Android de tests i qüestionaris amb registre de partides per usuari. Backend REST en Java Maven (Apache NetBeans) connectat a PostgreSQL per a la gestió CRUD completa. Inclou fòrum de notícies i recursos multimèdia integrat amb l'API de YouTube.",
-            "stack": "Java, Android Studio, PostgreSQL, Apache NetBeans"
         },
         "testimonial": {
             "quote": "Des del primer moment col·laborar per a la creació del producte va ser molt senzill. Carlos va entendre les necessitats i la visió del negoci. Estem molt agraïts amb l'eina que està construint per a l'empresa.",
@@ -105,7 +108,7 @@
         "backend": "Backend",
         "tools": "Eines",
         "methodologies": "Metodologies",
-        "methodologiesDesc": "Metodologies de treball"
+        "methodologiesDesc": "Metodologies i marc de treball"
     },
     "education": {
         "title": "Formació",
@@ -124,27 +127,27 @@
     },
     "process": {
         "title": "Com treballo",
-        "subtitle": "Les meves fases de treball",
+        "subtitle": "El meu marc de treball, fase a fase",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entendre",
-                "description": "El primer pas per crear el producte és comprendre't. Escolto el que necessites, pregunto el que no queda clar i m'asseguro d'entendre el problema d'arrel."
+                "description": "Concepte abans que codi. Escolto el que necessites, pregunto el que no queda clar i m'asseguro d'entendre el problema d'arrel. Estalviar un dia entenent bé sol estalviar una setmana de refactor."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Amb tota la informació disposada i clara, traço un pla concret: què es farà, en quin ordre i què rebràs en cada fase. Sense sorpreses, sense lletra petita."
+                "description": "Traço un pla concret i especifico cada canvi abans de tocar res: què es fa, en quin ordre, què rebràs i sota quins criteris de qualitat. Spec-Driven Development com a base. Sense sorpreses."
             },
             "develop": {
                 "number": "03",
                 "title": "Desenvolupar",
-                "description": "Materialització del concepte creat a les primeres fases: Construeixo el codi pas a pas, mostrant-te avenços reals perquè puguis donar la teva opinió sobre la marxa. El projecte evoluciona i tu observes el seu avenç."
+                "description": "Construeixo el codi pas a pas, amb testing on aporta i commits traçables. Cada decisió, gotcha o aprenentatge queda registrat al meu vault de knowledge — això significa que cada projecte es beneficia de l'aprenentatge dels anteriors."
             },
             "deliver": {
                 "number": "04",
                 "title": "Lliurar",
-                "description": "La meva màxima és lliurar-te una eina que puguis utilitzar. Entrego un projecte amb la documentació i manuals necessaris per al seu maneig. Sempre disposat per a tu des del moment en què entrego el producte en endavant."
+                "description": "Et lliuro una eina que puguis usar, amb la documentació i manuals necessaris. Disponible per seguir col·laborant des del moment del lliurament endavant."
             }
         }
     },

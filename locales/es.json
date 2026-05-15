@@ -2,12 +2,12 @@
     "meta": {
         "lang": "es",
         "langName": "Español",
-        "description": "Carlos Garzón López - Junior Full-Stack Developer. Desarrollo web claro, sólido y preparado para crecer.",
+        "description": "Carlos Garzón López — Junior Full-Stack Developer. Desarrollo web y móvil claro, sólido y preparado para crecer.",
         "title": "Carlos Garzón López | Junior Full-Stack Developer"
     },
     "hero": {
         "role": "Junior Full-Stack Developer",
-        "tagline": "De la idea al sistema: desarrollo web claro, sólido y preparado para crecer.",
+        "tagline": "De la idea al sistema: desarrollo web y móvil claro, sólido y preparado para crecer.",
         "availability": "Disponible: Presencial · Híbrido · Remoto",
         "cta": {
             "github": "GitHub",
@@ -27,37 +27,33 @@
     "about": {
         "title": "Sobre mí",
         "subtitle": "Desarrollador en constante evolución",
-        "bio": "Decidí escoger la programación movido por la curiosidad que despertaba en mi las posibilidades que este mundo ofrecía. Con el tiempo descubrí algo que me cautivó de este campo: permitía crear y materializar cualquier idea concebible. La capacidad de convertir una idea en algo tangible. No hablo solo de escribir código — hablo de sentarme y charlar contigo, entender qué necesitas y construir algo que de verdad funcione en tu día a día. Poder transformar la inquietud de un cliente en una herramienta de uso diario es uno de los motivos que más me hace disfrutar de este trabajo.",
+        "bio": "Decidí escoger la programación movido por la curiosidad que despertaba en mí las posibilidades que este mundo ofrecía. Con el tiempo descubrí algo que me cautivó: la capacidad de convertir una idea en algo tangible. No hablo solo de escribir código — hablo de sentarme y charlar contigo, entender qué necesitas y construir algo que de verdad funcione en tu día a día. Transformar la inquietud de un cliente en una herramienta de uso diario es uno de los motivos que más me hace disfrutar de este trabajo.",
         "values": {
             "title": "Valores",
-            "closeness": {
-                "title": "Cercanía",
-                "description": "Yo construyo, tú decides. Transparencia, feedback y colaboración durante todo el proceso."
+            "commitment": {
+                "title": "Compromiso",
+                "description": "Trato los proyectos en los que entro como si fueran míos. Si me importa lo que construyo, el resultado se nota."
+            },
+            "communication": {
+                "title": "Comunicación",
+                "description": "Conmigo la conversación es fluida, efectiva y cómoda. Las decisiones técnicas no se esconden detrás de jerga: lo que decido, lo explico."
             },
             "honesty": {
                 "title": "Honestidad",
-                "description": "Siempre claro y sincero en cuánto a las posibilidades y el desarrollo del producto."
-            },
-            "clarity": {
-                "title": "Claridad",
-                "description": "Comunicación directa y cercana. Siempre disponible para el contacto."
+                "description": "Si no sé algo, lo digo y lo aprendo. Si una solución tiene riesgos, los nombro antes de que aparezcan."
             },
             "robustness": {
-                "title": "Robustez",
-                "description": "Analizo antes de construir. Evalúo pros, contras e impacto tras cada decisión."
+                "title": "Robustez sobre velocidad",
+                "description": "Prefiero un cambio pequeño bien hecho a una entrega rápida que herede deuda. Construir bien hoy es ahorrar refactor mañana."
             },
-            "scalability": {
-                "title": "Visión de futuro",
-                "description": "Construyo pensando en el mañana. Si el negocio escala el producto también."
-            },
-            "commitment": {
-                "title": "Compromiso",
-                "description": "Tu proyecto es mi proyecto. ¡Somos un equipo!"
+            "productVision": {
+                "title": "Visión de producto",
+                "description": "Lo que construyo lo usa alguien — esa persona es la brújula, no la moda técnica del trimestre."
             }
         },
         "hobbies": {
             "title": "Fuera del código",
-            "description": "Me considero alguien curioso e inquieto por norma general. Disfruto teniendo frentes abiertos en mi vida que me reten y me empujen. Por ello el deporte siempre ha tomado una parte importante en mi crecimiento. Actualmente entreno en el gimnasio y juego a pádel todas las semanas, me gusta mantenerme activo mental y físicamente. Toco el violín desde la primaria y es una actividad que me sigue aportando mucho a día de hoy."
+            "description": "Curioso e inquieto por norma. Disfruto teniendo frentes abiertos en mi vida que me reten. El deporte ha sido columna constante: practiqué taekwondo, jugué a fútbol y fútbol sala, entreno en gimnasio desde hace años y juego a pádel cada semana desde hace un par. Toco el violín desde la primaria y me sigue acompañando. Cuerpo y cabeza tiran del mismo carro: si cuido uno, el otro responde."
         },
         "languages": {
             "title": "Idiomas",
@@ -74,20 +70,27 @@
         "featured": "Destacado",
         "learning": "Proyecto formativo",
         "deploying": "Pre-lanzamiento",
+        "inProgress": "En construcción",
+        "private": "Proyecto interno",
         "arynstal": {
-            "title": "Arynstal CRM",
-            "description": "Sistema de gestión de leads en producción para empresa de instalaciones y reformas. Incluye formulario de contacto seguro, panel admin con auditoría, notificaciones automáticas y cumplimiento RGPD.",
-            "stack": "Django, PostgreSQL, Tailwind CSS, Gunicorn"
+            "title": "Arynstal — Web corporativa y CRM",
+            "description": "Sistema completo para una empresa de instalaciones: web corporativa, captación de leads, panel admin con auditoría, RBAC por rol y notificaciones automáticas. Sistema deployado y operando en entorno de producción. La publicación pública en arynstal.es está pendiente de la entrega de la galería de proyectos por parte del cliente.",
+            "stack": "Django 6, PostgreSQL, Tailwind CSS, Nginx, Gunicorn, Cloudflare"
+        },
+        "setlog": {
+            "title": "SetLog — App móvil de entrenamiento",
+            "description": "Aplicación nativa para registrar sesiones de gimnasio sin perder el flow. Sin login, sin cuenta cloud — pensada para que el papel y boli deje de ser más cómodo que el móvil. Construcción activa con arquitectura limpia: dominio TypeScript puro, Feature-Sliced Design y persistencia local-first.",
+            "stack": "Expo, React Native, TypeScript estricto, Zustand, Zod, NativeWind"
+        },
+        "vault": {
+            "title": "Vault Personal + Project Exocortex",
+            "description": "Sistema vivo de gestión de conocimiento técnico y operativo. Zettelkasten en Obsidian con taxonomía propia + memoria persistente cross-sesión vía MCP. Project Exocortex (en evolución): sistema RAG sobre el vault para que el conocimiento se active de forma semántica en el momento en que es relevante.",
+            "stack": "Obsidian, Markdown, MCP (Engram), arquitectura RAG en desarrollo"
         },
         "portfolio": {
             "title": "Portfolio Personal",
             "description": "Este mismo sitio. Sistema i18n propio en JavaScript vanilla, diseño responsive, accesibilidad optimizada y rendimiento cuidado.",
             "stack": "HTML5, CSS3, JavaScript, Vite"
-        },
-        "appfp": {
-            "title": "Pointer App",
-            "description": "Aplicación Android de tests y cuestionarios con registro de partidas por usuario. Backend REST en Java Maven (Apache NetBeans) conectado a PostgreSQL para la gestión CRUD completa. Incluye foro de noticias y recursos multimedia integrado con la API de YouTube.",
-            "stack": "Java, Android Studio, PostgreSQL, Apache NetBeans"
         },
         "testimonial": {
             "quote": "Desde el primer momento colaborar para la creación del producto fue muy sencillo. Carlos entendió las necesidades y la visión del negocio. Estamos muy agradecidos con la herramienta que está construyendo para la empresa.",
@@ -105,7 +108,7 @@
         "backend": "Backend",
         "tools": "Herramientas",
         "methodologies": "Metodologías",
-        "methodologiesDesc": "Metodologías de trabajo"
+        "methodologiesDesc": "Metodologías y marco de trabajo"
     },
     "education": {
         "title": "Formación",
@@ -124,27 +127,27 @@
     },
     "process": {
         "title": "Cómo trabajo",
-        "subtitle": "Mis fases de trabajo",
+        "subtitle": "Mi marco de trabajo, fase a fase",
         "steps": {
             "understand": {
                 "number": "01",
                 "title": "Entender",
-                "description": "El primer paso para crear el producto es comprenderte. Escucho lo que necesitas, pregunto lo que no queda claro y me aseguro de entender el problema de raíz."
+                "description": "Concepto antes que código. Escucho lo que necesitas, pregunto lo que no queda claro y me aseguro de entender el problema de raíz. Ahorrar un día entendiendo bien suele ahorrar una semana de refactor."
             },
             "plan": {
                 "number": "02",
                 "title": "Planificar",
-                "description": "Con toda la información dispuesta y clara, trazo un plan concreto: qué se va a hacer, en qué orden y qué vas a recibir en cada fase. Sin sorpresas, sin letra pequeña."
+                "description": "Trazo un plan concreto y especifico cada cambio antes de tocar nada: qué se hace, en qué orden, qué vas a recibir y bajo qué criterios de calidad. Spec-Driven Development como base. Sin sorpresas."
             },
             "develop": {
                 "number": "03",
                 "title": "Desarrollar",
-                "description": "Materialización del concepto creado en las primeras fases: Construyo el código paso a paso, mostrándote avances reales para que puedas dar tu opinión sobre la marcha. El proyecto evoluciona y tú observas su avance."
+                "description": "Construyo el código paso a paso, con testing donde aporta y commits trazables. Cada decisión, gotcha o aprendizaje queda registrado en mi vault de knowledge — esto significa que cada proyecto se beneficia del aprendizaje de los anteriores."
             },
             "deliver": {
                 "number": "04",
                 "title": "Entregar",
-                "description": "Mi máxima es entregarte una herramienta que puedas utilizar. Entrego un proyecto con documentación y manuales necesarios para su manejo. Siempre dispuesto para ti desde el momento en que entrego el producto en adelante."
+                "description": "Te entrego una herramienta que puedas usar, con la documentación y manuales necesarios. Disponible para seguir colaborando desde el momento de la entrega en adelante."
             }
         }
     },
