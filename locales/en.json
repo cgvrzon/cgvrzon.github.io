@@ -104,7 +104,7 @@
             "title": "Practice — layout and front-end",
             "description": "Six coursework projects, each closing a specific technique: pixel-faithful layout measured against the design, mobile-first responsive, validated semantic HTML and verified accessibility. All with open demo and code.",
             "stack": "HTML5, SASS, CSS Grid, Flexbox, responsive images",
-            "cta": "See the practice"
+            "cta": "See practice"
         }
     },
     "stack": {

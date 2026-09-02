@@ -104,7 +104,7 @@
             "title": "Práctica — maquetación y front-end",
             "description": "Seis proyectos de formación, cada uno cerrando una técnica concreta: maquetación fiel medida contra el diseño, responsive mobile-first, HTML semántico validado y accesibilidad comprobada. Todos con demo y código abiertos.",
             "stack": "HTML5, SASS, CSS Grid, Flexbox, imágenes responsive",
-            "cta": "Ver la práctica"
+            "cta": "Ver práctica"
         }
     },
     "stack": {
