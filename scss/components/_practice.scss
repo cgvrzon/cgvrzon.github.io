@@ -1,0 +1,261 @@
+/* ============================================
+   PRACTICE PAGE
+   Página propia para los proyectos de formación.
+   Reutiliza los tokens del sistema; no introduce colores nuevos.
+   ============================================ */
+
+/* --- Cabecera de la página ------------------------------------------------ */
+.practice-header {
+    position: relative;
+    background: var(--gradient-subtle);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-16) 0 var(--space-12);
+}
+
+.practice-header__container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--space-6);
+}
+
+.practice-back {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-8);
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: color var(--transition-base);
+}
+
+/* La flecha del sprite apunta a la derecha; aquí se vuelve para atrás. */
+.practice-back svg {
+    transform: rotate(180deg);
+    fill: currentColor;
+    transition: transform var(--transition-base);
+}
+
+.practice-back:hover {
+    color: var(--color-accent-primary);
+}
+
+.practice-back:hover svg {
+    transform: rotate(180deg) translateX(3px);
+}
+
+.practice-header__title {
+    margin: 0 0 var(--space-4);
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-text-primary);
+    text-wrap: balance;
+}
+
+.practice-header__lead {
+    margin: 0 0 var(--space-4);
+    max-width: 62ch;
+    color: var(--color-text-secondary);
+    font-size: var(--text-lg);
+    line-height: var(--leading-relaxed);
+}
+
+.practice-header__note {
+    margin: 0;
+    max-width: 62ch;
+    padding-left: var(--space-4);
+    border-left: 2px solid var(--color-accent-primary);
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+}
+
+/* --- Secciones ------------------------------------------------------------ */
+.practice-section {
+    padding: var(--space-16) 0;
+}
+
+.practice-section--alt {
+    background-color: var(--color-bg-secondary);
+}
+
+.practice-section__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--space-6);
+}
+
+.practice-section__header {
+    max-width: 62ch;
+    margin-bottom: var(--space-10);
+}
+
+.practice-section__title {
+    margin: 0 0 var(--space-3);
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: var(--leading-tight);
+    color: var(--color-text-primary);
+    text-wrap: balance;
+}
+
+.practice-section__subtitle {
+    margin: 0;
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+/* --- Rejilla y tarjetas --------------------------------------------------- */
+.practice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: var(--space-6);
+    align-items: start;
+}
+
+.practice-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    height: 100%;
+    padding: var(--space-6);
+    background-color: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    transition:
+        border-color var(--transition-base),
+        transform var(--transition-base);
+}
+
+.practice-card:hover {
+    border-color: var(--color-border-hover);
+    transform: translateY(-4px);
+}
+
+.practice-card--featured {
+    border-color: var(--color-accent-primary);
+}
+
+.practice-card--featured:hover {
+    border-color: var(--color-accent-primary-hover);
+    box-shadow: var(--shadow-glow);
+}
+
+.practice-card__title {
+    margin: 0;
+    font-size: var(--text-xl);
+    line-height: var(--leading-tight);
+    color: var(--color-text-primary);
+    text-wrap: balance;
+}
+
+.practice-card__description {
+    margin: 0;
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+/* Los datos medidos: lo que distingue estas piezas de un ejercicio cualquiera,
+   así que se destacan en vez de quedar embebidos en el párrafo. */
+.practice-card__facts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-2);
+}
+
+.practice-card__facts li {
+    position: relative;
+    padding-left: var(--space-5);
+    color: var(--color-text-primary);
+    font-size: var(--text-sm);
+    line-height: var(--leading-normal);
+}
+
+.practice-card__facts li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 10px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--color-accent-primary);
+}
+
+.practice-card__stack {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    line-height: var(--leading-normal);
+}
+
+.practice-card__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: auto;
+    padding-top: var(--space-2);
+}
+
+.practice-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid var(--color-border-hover);
+    border-radius: var(--radius-md);
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition:
+        color var(--transition-base),
+        border-color var(--transition-base),
+        background-color var(--transition-base);
+}
+
+.practice-link svg {
+    fill: currentColor;
+}
+
+.practice-link:hover {
+    color: var(--color-text-primary);
+    border-color: var(--color-accent-primary);
+}
+
+.practice-link--primary {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary-text);
+}
+
+.practice-link--primary:hover {
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-on-accent);
+}
+
+/* --- Cierre --------------------------------------------------------------- */
+.practice-outro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-5);
+    max-width: 62ch;
+}
+
+.practice-outro p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+/* --- La tarjeta del índice, en la home ------------------------------------ */
+.project-card--practice {
+    border-style: dashed;
+}
+
+.project-card--practice:hover {
+    border-style: solid;
+    border-color: var(--color-accent-primary);
+}

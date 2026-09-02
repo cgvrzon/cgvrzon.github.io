@@ -3,7 +3,11 @@
         "lang": "ca",
         "langName": "Català",
         "description": "Carlos Garzón López — Junior Full-Stack Developer. Desenvolupament web i mòbil clar, sòlid i preparat per créixer.",
-        "title": "Carlos Garzón López | Junior Full-Stack Developer"
+        "title": "Carlos Garzón López | Junior Full-Stack Developer",
+        "practica": {
+            "title": "Pràctica | Carlos Garzón López",
+            "description": "Sis projectes de maquetació i front-end, cadascun tancant una tècnica concreta. Amb demo i codi oberts."
+        }
     },
     "hero": {
         "role": "Junior Full-Stack Developer",
@@ -90,11 +94,17 @@
         "portfolio": {
             "title": "Portfolio Personal",
             "description": "Aquest mateix lloc. Sistema i18n propi en JavaScript vanilla, disseny responsive, accessibilitat optimitzada i rendiment cuidat.",
-            "stack": "HTML5, CSS3, JavaScript, Vite"
+            "stack": "HTML5, SCSS, JavaScript vanilla"
         },
         "testimonial": {
             "quote": "Des del primer moment col·laborar per a la creació del producte va ser molt senzill. Carlos va entendre les necessitats i la visió del negoci. Estem molt agraïts amb l'eina que està construint per a l'empresa.",
             "author": "Arynstal SL"
+        },
+        "practice": {
+            "title": "Pràctica — maquetació i front-end",
+            "description": "Sis projectes de formació, cadascun tancant una tècnica concreta: maquetació fidel mesurada contra el disseny, responsive mobile-first, HTML semàntic validat i accessibilitat comprovada. Tots amb demo i codi oberts.",
+            "stack": "HTML5, SASS, CSS Grid, Flexbox, imatges responsive",
+            "cta": "Veure la pràctica"
         }
     },
     "stack": {
@@ -170,5 +180,66 @@
         "socialLinks": "Enllaços de contacte i xarxes",
         "skipToContent": "Saltar al contingut principal",
         "themeToggle": "Canviar tema"
+    },
+    "practice": {
+        "back": "Tornar al portfolio",
+        "title": "Pràctica",
+        "lead": "Projectes de formació del màster de desenvolupament web. Cadascun tanca una tècnica concreta i està publicat amb la seva demo i el seu codi: es pot obrir, mirar el marcatge i llegir per què està fet així.",
+        "note": "No són projectes de client. Són aquí perquè ensenyen com treballo quan l'objectiu està acotat: què mesuro, què documento i què deixo verificat.",
+        "viewDemo": "Veure demo",
+        "viewCode": "Veure codi",
+        "outro": "Tots són lliuraments del màster de desenvolupament web full-stack de ConquerBlocks. El codi és obert a cada repositori, amb un README que explica les decisions i com es van verificar.",
+        "backToProjects": "Veure els projectes",
+        "pair": {
+            "title": "Un projecte, dos lliuraments",
+            "subtitle": "El mateix lloc construït dues vegades: primer l'estructura, després el disseny. Separar-ho obliga que l'HTML se sostingui sol."
+        },
+        "fidelity": {
+            "title": "Maquetació fidel a un disseny",
+            "subtitle": "Reproduir un disseny aliè amb precisió mesurable. El criteri d'acceptació no és «s'assembla»: és la distància entre el que mana el disseny i el que pinta el navegador, mesurada en píxels."
+        },
+        "academyCss": {
+            "title": "Conquer Academy — el lloc amb estils",
+            "description": "Lloc de dotze vistes per a una acadèmia fictícia, maquetat amb SASS, mobile first i sense una línia de JavaScript. La paleta no es va triar a ull: es va llegir del CSS de producció del referent, i els rols de cada color van sortir de mesurar contrast.",
+            "fact1": "Una sola direcció d'interacció, amb estat en 169 de 169 elements interactuables",
+            "fact2": "439 textos verificats de contrast contra el fons on cauen",
+            "fact3": "Entrada per scroll en CSS natiu, sense llibreries"
+        },
+        "academyHtml": {
+            "title": "Conquer Academy — l'estructura",
+            "description": "El mateix lloc, només amb HTML semàntic: sense CSS propi, sense JavaScript i sense dependències. Es veu com es veu un document sense estilar, i això és deliberat — l'exercici era que la informació se sostingués per la seva estructura.",
+            "fact1": "Zero errors i zero avisos al validador del W3C, a les dotze pàgines",
+            "fact2": "Imatges responsive amb srcset i sizes, sense una línia de CSS"
+        },
+        "gallery": {
+            "title": "Modern Art Gallery",
+            "description": "Micro-site responsive de dues vistes per a una galeria d'art. Mobile first, amb les tipografies auto-allotjades en comptes de servides des d'un CDN.",
+            "fact1": "98,5 % de fidelitat mesurada contra el disseny"
+        },
+        "adamKeyes": {
+            "title": "Portafolis responsive",
+            "description": "Portafolis d'una pàgina en tres amplades, amb estats en tot allò interactuable i entrada per scroll resolta en CSS natiu.",
+            "fact1": "Estats verificats en 26 de 26 elements interactuables",
+            "fact2": "Tres breakpoints posats on el layout deixa de servir, no on era el disseny"
+        },
+        "gath": {
+            "title": "Capçalera GathSession",
+            "description": "Capçalera d'una plataforma de comunitat: un collage de retrats a sang sobre fons fosc, sobre llenç de composició fixa.",
+            "fact1": "98 % de fidelitat mesurada contra el disseny"
+        },
+        "spa": {
+            "title": "Capçalera Spa & Beauty",
+            "description": "La primera. Capçalera d'un negoci d'spa, i on es va assentar el mètode: mesurar el disseny abans d'escriure CSS en comptes d'estimar a ull.",
+            "fact1": "99 % de fidelitat mesurada contra el disseny"
+        },
+        "stack": {
+            "responsiveImages": "Imatges responsive",
+            "a11y": "Accessibilitat",
+            "semantics": "Semàntica",
+            "mobileFirst": "Mobile first",
+            "animations": "Animacions CSS",
+            "composition": "Composició",
+            "architecture": "Arquitectura 7-1"
+        }
     }
 }

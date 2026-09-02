@@ -12,3 +12,29 @@
     white-space: nowrap;
     border: 0;
 }
+
+/* Enlace de salto al contenido.
+   La clave `aria.skipToContent` ya existía en los tres locales sin que ningún
+   marcado la usara: el enlace estaba previsto y nunca llegó a implementarse.
+   Se esconde fuera de la pantalla y solo aparece al recibir foco, que es el
+   único momento en que sirve para algo. */
+.skip-link {
+    position: absolute;
+    top: var(--space-3);
+    left: var(--space-3);
+    z-index: 100;
+    padding: var(--space-3) var(--space-5);
+    background-color: var(--color-accent-primary);
+    color: var(--color-text-on-accent);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transform: translateY(calc(-100% - var(--space-4)));
+    transition: transform var(--transition-base);
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+    outline: 2px solid var(--color-text-primary);
+    outline-offset: 2px;
+}

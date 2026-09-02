@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es" data-page="practica">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos de práctica de Carlos Garzón López: maquetación fiel, responsive mobile-first, HTML semántico y accesibilidad. Cada pieza con demo y código.">
+    <meta name="author" content="Carlos Garzón López (cgvrzon)">
+    <meta name="theme-color" content="#0a0a0b">
+    <link rel="canonical" href="https://cgvrzon.github.io/practica.html">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Práctica | Carlos Garzón López">
+    <meta property="og:description" content="Seis proyectos de maquetación y front-end, cada uno cerrando una técnica concreta. Con demo y código.">
+    <meta property="og:url" content="https://cgvrzon.github.io/practica.html">
+
+    <title>Práctica | Carlos Garzón López</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FOUC prevention: apply saved theme before first paint -->
+    <script>
+        (function() {
+            var t = localStorage.getItem('portfolio_theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+        })();
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link" data-i18n="aria.skipToContent">Saltar al contenido</a>
+
+    <!-- ============================================
+         PRACTICE — cabecera
+         Author: Carlos Garzón López (cgvrzon)
+         ============================================ -->
+    <header class="practice-header" role="banner">
+        <!-- Header Controls: Language Selector + Theme Toggle -->
+        <div class="header-controls">
+            <nav class="lang-selector" aria-label="Selector de idioma">
+                <button type="button" class="lang-btn active" data-lang="es" aria-pressed="true" aria-label="Español">ES</button>
+                <span class="lang-separator" aria-hidden="true">/</span>
+                <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" aria-label="English">EN</button>
+                <span class="lang-separator" aria-hidden="true">/</span>
+                <button type="button" class="lang-btn" data-lang="ca" aria-pressed="false" aria-label="Català">CA</button>
+            </nav>
+            <button
+                type="button"
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Cambiar tema"
+                data-i18n-attr="aria-label"
+                data-i18n="aria.themeToggle"
+            >
+                <svg class="theme-toggle__icon--sun" width="20" height="20" aria-hidden="true">
+                    <use href="assets/icons/sprite.svg#icon-sun"/>
+                </svg>
+                <svg class="theme-toggle__icon--moon" width="20" height="20" aria-hidden="true">
+                    <use href="assets/icons/sprite.svg#icon-moon"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="practice-header__container">
+            <a class="practice-back" href="index.html">
+                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-arrow-right"/></svg>
+                <span data-i18n="practice.back">Volver al portfolio</span>
+            </a>
+
+            <h1 class="practice-header__title" data-i18n="practice.title">Práctica</h1>
+            <p class="practice-header__lead" data-i18n="practice.lead">
+                Proyectos de formación del máster de desarrollo web. Cada uno cierra una técnica
+                concreta y está publicado con su demo y su código: se puede abrir, mirar el marcado
+                y leer por qué está hecho así.
+            </p>
+            <p class="practice-header__note" data-i18n="practice.note">
+                No son proyectos de cliente. Están aquí porque enseñan cómo trabajo cuando el
+                objetivo está acotado: qué mido, qué documento y qué dejo verificado.
+            </p>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- ============================================
+             Un proyecto, dos entregas
+             ============================================ -->
+        <section class="practice-section">
+            <div class="practice-section__container">
+                <header class="practice-section__header">
+                    <h2 class="practice-section__title" data-i18n="practice.pair.title">Un proyecto, dos entregas</h2>
+                    <p class="practice-section__subtitle" data-i18n="practice.pair.subtitle">
+                        El mismo sitio construido dos veces: primero la estructura, después el diseño.
+                        Separarlo obliga a que el HTML se sostenga solo.
+                    </p>
+                </header>
+
+                <div class="practice-grid">
+                    <article class="practice-card practice-card--featured">
+                        <h3 class="practice-card__title" data-i18n="practice.academyCss.title">Conquer Academy — el sitio con estilos</h3>
+                        <p class="practice-card__description" data-i18n="practice.academyCss.description">
+                            Sitio de doce vistas para una academia ficticia, maquetado con SASS,
+                            mobile first y sin una línea de JavaScript. La paleta no se eligió a ojo:
+                            se leyó del CSS de producción del referente, y los roles de cada color
+                            salieron de medir contraste.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.academyCss.fact1">Una sola dirección de interacción, con estado en 169 de 169 elementos interactuables</li>
+                            <li data-i18n="practice.academyCss.fact2">439 textos verificados de contraste contra el fondo donde caen</li>
+                            <li data-i18n="practice.academyCss.fact3">Entrada por scroll en CSS nativo, sin librerías</li>
+                        </ul>
+                        <p class="practice-card__stack">SASS · CSS Grid · Flexbox · <span data-i18n="practice.stack.responsiveImages">Imágenes responsive</span> · <span data-i18n="practice.stack.a11y">Accesibilidad</span></p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/conquer-academy/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/conquer-academy" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="practice-card">
+                        <h3 class="practice-card__title" data-i18n="practice.academyHtml.title">Conquer Academy — la estructura</h3>
+                        <p class="practice-card__description" data-i18n="practice.academyHtml.description">
+                            El mismo sitio, solo con HTML semántico: sin CSS propio, sin JavaScript y
+                            sin dependencias. Se ve como se ve un documento sin estilar, y eso es
+                            deliberado — el ejercicio era que la información se sostuviera por su
+                            estructura.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.academyHtml.fact1">Cero errores y cero avisos en el validador del W3C, en las doce páginas</li>
+                            <li data-i18n="practice.academyHtml.fact2">Imágenes responsive con srcset y sizes, sin una línea de CSS</li>
+                        </ul>
+                        <p class="practice-card__stack">HTML5 · <span data-i18n="practice.stack.semantics">Semántica</span> · <span data-i18n="practice.stack.responsiveImages">Imágenes responsive</span> · SEO</p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/conquer-academy-html/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/conquer-academy-html" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             Maquetación fiel a un diseño
+             ============================================ -->
+        <section class="practice-section practice-section--alt">
+            <div class="practice-section__container">
+                <header class="practice-section__header">
+                    <h2 class="practice-section__title" data-i18n="practice.fidelity.title">Maquetación fiel a un diseño</h2>
+                    <p class="practice-section__subtitle" data-i18n="practice.fidelity.subtitle">
+                        Reproducir un diseño ajeno con precisión medible. El criterio de aceptación no
+                        es «se parece»: es la distancia entre lo que manda el diseño y lo que pinta el
+                        navegador, medida en píxeles.
+                    </p>
+                </header>
+
+                <div class="practice-grid">
+                    <article class="practice-card">
+                        <h3 class="practice-card__title" data-i18n="practice.gallery.title">Modern Art Gallery</h3>
+                        <p class="practice-card__description" data-i18n="practice.gallery.description">
+                            Micro-site responsive de dos vistas para una galería de arte. Mobile first,
+                            con las tipografías auto-alojadas en vez de servidas desde un CDN.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.gallery.fact1">98,5 % de fidelidad medida contra el diseño</li>
+                        </ul>
+                        <p class="practice-card__stack">SASS · <span data-i18n="practice.stack.mobileFirst">Mobile first</span> · CSS Grid</p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/modern-art-gallery/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/modern-art-gallery" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="practice-card">
+                        <h3 class="practice-card__title" data-i18n="practice.adamKeyes.title">Portafolio responsive</h3>
+                        <p class="practice-card__description" data-i18n="practice.adamKeyes.description">
+                            Portafolio de una página en tres anchos, con estados en todo lo
+                            interactuable y entrada por scroll resuelta en CSS nativo.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.adamKeyes.fact1">Estados verificados en 26 de 26 elementos interactuables</li>
+                            <li data-i18n="practice.adamKeyes.fact2">Tres breakpoints puestos donde el layout deja de servir, no donde estaba el diseño</li>
+                        </ul>
+                        <p class="practice-card__stack">SASS · <span data-i18n="practice.stack.mobileFirst">Mobile first</span> · <span data-i18n="practice.stack.animations">Animaciones CSS</span></p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/portfolio-adam-keyes/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/portfolio-adam-keyes" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="practice-card">
+                        <h3 class="practice-card__title" data-i18n="practice.gath.title">Header GathSession</h3>
+                        <p class="practice-card__description" data-i18n="practice.gath.description">
+                            Cabecera de una plataforma de comunidad: un collage de retratos a sangre
+                            sobre fondo oscuro, sobre lienzo de composición fija.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.gath.fact1">98 % de fidelidad medida contra el diseño</li>
+                        </ul>
+                        <p class="practice-card__stack">SASS · CSS Grid · <span data-i18n="practice.stack.composition">Composición</span></p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/header-gathsession/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/header-gathsession" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="practice-card">
+                        <h3 class="practice-card__title" data-i18n="practice.spa.title">Header Spa &amp; Beauty</h3>
+                        <p class="practice-card__description" data-i18n="practice.spa.description">
+                            La primera. Cabecera de un negocio de spa, y donde se asentó el método:
+                            medir el diseño antes de escribir CSS en vez de estimar a ojo.
+                        </p>
+                        <ul class="practice-card__facts">
+                            <li data-i18n="practice.spa.fact1">99 % de fidelidad medida contra el diseño</li>
+                        </ul>
+                        <p class="practice-card__stack">SASS · <span data-i18n="practice.stack.architecture">Arquitectura 7-1</span></p>
+                        <div class="practice-card__links">
+                            <a class="practice-link practice-link--primary" href="https://cgvrzon.github.io/header-spa-beauty/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="practice.viewDemo">Ver demo</span>
+                            </a>
+                            <a class="practice-link" href="https://github.com/cgvrzon/header-spa-beauty" target="_blank" rel="noopener noreferrer">
+                                <svg width="16" height="16" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-github"/></svg>
+                                <span data-i18n="practice.viewCode">Ver código</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="practice-section">
+            <div class="practice-section__container practice-outro">
+                <p data-i18n="practice.outro">
+                    Todos son entregables del máster de desarrollo web full-stack de ConquerBlocks.
+                    El código está abierto en cada repositorio, con un README que explica las
+                    decisiones y cómo se verificaron.
+                </p>
+                <a class="practice-link practice-link--primary" href="index.html">
+                    <span data-i18n="practice.backToProjects">Ver los proyectos</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__copyright" data-i18n="footer.copyright">
+                © 2026 Carlos Garzón López. Todos los derechos reservados.
+            </p>
+            <p class="footer__built">
+                <span data-i18n="footer.builtWith">Construido con</span>
+                <span class="footer__heart" aria-hidden="true">♥</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html>

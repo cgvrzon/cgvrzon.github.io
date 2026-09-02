@@ -151,8 +151,12 @@
     flex-grow: 1;
 }
 
-/* Process Responsive */
-@media (max-width: 767.98px) {
+/* Process Responsive
+   El corte esta en 959.98 y no en 767.98 porque la fila de cuatro pasos, con
+   su min-width y sus flechas, necesita ~922px de contenido: medido en
+   navegador, con el corte anterior la pagina desbordaba en horizontal en todo
+   el rango de 780 a 940. El breakpoint va donde el layout deja de servir. */
+@media (max-width: 959.98px) {
     .process__steps {
         flex-direction: column;
         align-items: center;

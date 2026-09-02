@@ -119,9 +119,17 @@ const I18n = (function() {
      * Updates document metadata (lang, title, description)
      */
     function updateDocumentMeta() {
-        const meta = translations.meta;
-        
-        if (!meta) return;
+        const base = translations.meta;
+
+        if (!base) return;
+
+        // Cada pagina puede declarar su propio bloque de meta con
+        // <html data-page="X">, y entonces se usa translations.meta.X. Sin ese
+        // atributo el comportamiento es el de siempre: la home. Sin esto, toda
+        // pagina nueva heredaba el titulo, la descripcion y los Open Graph de
+        // la portada, y lo hacia en silencio.
+        const pagina = document.documentElement.dataset.page;
+        const meta = (pagina && base[pagina]) ? { ...base, ...base[pagina] } : base;
 
         // Update html lang attribute
         document.documentElement.lang = meta.lang || currentLang;
